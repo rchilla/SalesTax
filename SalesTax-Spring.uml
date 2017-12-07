@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_TKsLsLI_EeWqIZUiFnKv9w" name="SalesTax_Spring">
+    <eAnnotations xmi:id="_TVwzQLI_EeWqIZUiFnKv9w" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_TVwzQbI_EeWqIZUiFnKv9w" source="codegen">
+        <details xmi:id="_TVxaULI_EeWqIZUiFnKv9w" key="codegenDirectory" value="/SalesTax-Spring/src/main/java"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_UouP8LI_EeWqIZUiFnKv9w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_UouP8bI_EeWqIZUiFnKv9w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_Uou3ALI_EeWqIZUiFnKv9w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_Uou3AbI_EeWqIZUiFnKv9w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Uou3ArI_EeWqIZUiFnKv9w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_Uou3A7I_EeWqIZUiFnKv9w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_UoveELI_EeWqIZUiFnKv9w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_UoveEbI_EeWqIZUiFnKv9w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_UowsMLI_EeWqIZUiFnKv9w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UhZf8LI_EeWqIZUiFnKv9w" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_UhauELI_EeWqIZUiFnKv9w" name="tek">
+        <packagedElement xmi:type="uml:Package" xmi:id="_UhbVILI_EeWqIZUiFnKv9w" name="sales">
+          <packagedElement xmi:type="uml:Package" xmi:id="_UhiC0LI_EeWqIZUiFnKv9w" name="cart">
+            <packagedElement xmi:type="uml:Class" xmi:id="_Uom7MLI_EeWqIZUiFnKv9w" name="Cart">
+              <ownedComment xmi:id="_VMRo8LI_EeWqIZUiFnKv9w">
+                <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_VKjKoLI_EeWqIZUiFnKv9w" name="itemList" visibility="private" type="_Uqt0ALI_EeWqIZUiFnKv9w" isOrdered="true" association="_VMlK8LI_EeWqIZUiFnKv9w">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VKjKobI_EeWqIZUiFnKv9w" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_VKk_0LI_EeWqIZUiFnKv9w" name="saleTax" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_VKm1ALI_EeWqIZUiFnKv9w" name="totalCost" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_VKoqMLI_EeWqIZUiFnKv9w" name="FORMATTER" visibility="private" isLeaf="true" isStatic="true" type="_VHblMLI_EeWqIZUiFnKv9w" isReadOnly="true" association="_VMnAIbI_EeWqIZUiFnKv9w">
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_VKpRQLI_EeWqIZUiFnKv9w" value="new DecimalFormat(&quot;0.00&quot;)"/>
+              </ownedAttribute>
+              <interfaceRealization xmi:id="_VHpAkLI_EeWqIZUiFnKv9w" client="_Uom7MLI_EeWqIZUiFnKv9w" supplier="_UpRpkLI_EeWqIZUiFnKv9w" contract="_UpRpkLI_EeWqIZUiFnKv9w"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VLtoQLI_EeWqIZUiFnKv9w" name="Cart" specification="_Uo09oLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VLtoQbI_EeWqIZUiFnKv9w" type="_Uom7MLI_EeWqIZUiFnKv9w" direction="return"/>
+                <language>java</language>
+                <body>itemList = new ArrayList&lt;IItem>();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VLu2YLI_EeWqIZUiFnKv9w" name="addItemToCart" specification="_VHrc0LI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VLu2YbI_EeWqIZUiFnKv9w" name="item" type="_Uqt0ALI_EeWqIZUiFnKv9w"/>
+                <language>java</language>
+                <body>itemList.add(item);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VLvdcLI_EeWqIZUiFnKv9w" name="calculateAndPrintReceiptDetails" specification="_Uo4oALI_EeWqIZUiFnKv9w">
+                <language>java</language>
+                <body>resetCart();&#xD;
+		StringBuilder buffer = new StringBuilder();&#xD;
+		//This map holds the list of items in the cart and their corresponding &#xD;
+		//quantities and prices.&#xD;
+		Map&lt;String,List&lt;Float>> productMap = new HashMap&lt;String,List&lt;Float>>();&#xD;
+		for (IItem item : itemList) {&#xD;
+			//get item description&#xD;
+			String itemName = item.getItemDescription();&#xD;
+			//If item is imporeted then append &quot;Imported&quot; string to it before&#xD;
+			// item description.&#xD;
+			if(item.isImportedItem())&#xD;
+			itemName = &quot;Imported &quot; + itemName;&#xD;
+			List&lt;Float> list = null;&#xD;
+			//check whether the item already in the cart or not.&#xD;
+			//If item already in the cart then item will be added to &#xD;
+			//cart and quantity will be increased.&#xD;
+			//else item will be simply added to cart.&#xD;
+			if(productMap.containsKey(itemName)){&#xD;
+				//This logic runs if same item is already in the cart.&#xD;
+			    list = productMap.get(itemName);&#xD;
+				float quantity = list.get(0)+1;&#xD;
+				float price = list.get(1) + item.getItemPrice();&#xD;
+				list = new ArrayList&lt;Float>();&#xD;
+				list.add(0, quantity);&#xD;
+				list.add(1, price);&#xD;
+				productMap.put(itemName, list);&#xD;
+			}else{&#xD;
+				//This block runs if item is not present in the cart&#xD;
+				list = new ArrayList&lt;Float>();&#xD;
+				list.add(0, 1f);&#xD;
+				list.add(1, item.getItemPrice());&#xD;
+				productMap.put(itemName, list);&#xD;
+			}&#xD;
+			//here total cost will be calculated.&#xD;
+			totalCost += item.getItemTotalPrice();&#xD;
+			//here total sales tax will be calculated.&#xD;
+			saleTax += item.getItemSaleTax();&#xD;
+		}&#xD;
+		System.out.println(&quot;\n&quot;);&#xD;
+		//prints all the items present in the cart.&#xD;
+		for(String item :productMap.keySet()){&#xD;
+			System.out.println(productMap.get(item).get(0).intValue()+&quot; &quot;+item+&quot; :&quot;+productMap.get(item).get(1));&#xD;
+		}&#xD;
+		buffer.append(&quot;Sales Taxes:&quot; + FORMATTER.format(saleTax));&#xD;
+		buffer.append(&quot;\nTotal :&quot; + totalCost);&#xD;
+		//prints total cost and sales taxes.&#xD;
+		System.out.println(buffer.toString());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VLwEgLI_EeWqIZUiFnKv9w" name="getTotalPrice" specification="_Uo-uoLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VLwEgbI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return totalCost;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VLwrkLI_EeWqIZUiFnKv9w" name="getSalesTaxPrice" specification="_UpBx8LI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VLwrkbI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return Float.valueOf(FORMATTER.format(saleTax));&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VLxSoLI_EeWqIZUiFnKv9w" name="toString" specification="_UpE1QLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VLxSobI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>StringBuilder buffer = new StringBuilder();&#xD;
+		for (IItem item : itemList) {&#xD;
+			buffer.append(&quot;\n&quot;).append(item.toString());&#xD;
+		}&#xD;
+		return buffer.toString();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VLxSorI_EeWqIZUiFnKv9w" name="resetCart" specification="_UpGqcLI_EeWqIZUiFnKv9w">
+                <language>java</language>
+                <body>totalCost = new Long(0);&#xD;
+		saleTax = new Long(0);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_Uo09oLI_EeWqIZUiFnKv9w" name="Cart" method="_VLtoQLI_EeWqIZUiFnKv9w">
+                <eAnnotations xmi:id="_Uo2LwLI_EeWqIZUiFnKv9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_Uo2LwbI_EeWqIZUiFnKv9w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_Uo2y0LI_EeWqIZUiFnKv9w" type="_Uom7MLI_EeWqIZUiFnKv9w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Uo4oALI_EeWqIZUiFnKv9w" name="calculateAndPrintReceiptDetails" method="_VLvdcLI_EeWqIZUiFnKv9w"/>
+              <ownedOperation xmi:id="_Uo-uoLI_EeWqIZUiFnKv9w" name="getTotalPrice" method="_VLwEgLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_Uo_VsLI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_UpBx8LI_EeWqIZUiFnKv9w" name="getSalesTaxPrice" method="_VLwrkLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_UpCZALI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_UpE1QLI_EeWqIZUiFnKv9w" name="toString" method="_VLxSoLI_EeWqIZUiFnKv9w">
+                <ownedComment xmi:id="_VMSQALI_EeWqIZUiFnKv9w">
+                  <body>This method builds the Sales Tax and Total Cost&#xD;
+	 * string to print the receipt finally.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_UpFcULI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_UpGqcLI_EeWqIZUiFnKv9w" name="resetCart" visibility="private" method="_VLxSorI_EeWqIZUiFnKv9w">
+                <ownedComment xmi:id="_VMSQAbI_EeWqIZUiFnKv9w">
+                  <body>This method resets the total and Sales tax costs.</body>
+                </ownedComment>
+              </ownedOperation>
+              <ownedOperation xmi:id="_VHrc0LI_EeWqIZUiFnKv9w" name="addItemToCart" method="_VLu2YLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VHrc0bI_EeWqIZUiFnKv9w" name="item" type="_Uqt0ALI_EeWqIZUiFnKv9w"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Uhip4LI_EeWqIZUiFnKv9w" name="interfce">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_UpRpkLI_EeWqIZUiFnKv9w" name="ICart">
+                <ownedComment xmi:id="_VMS3ELI_EeWqIZUiFnKv9w">
+                  <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_UpUF0LI_EeWqIZUiFnKv9w" name="totalPrice" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_UpUs4LI_EeWqIZUiFnKv9w" name="salesTaxPrice" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_UpTewLI_EeWqIZUiFnKv9w" name="calculateAndPrintReceiptDetails"/>
+                <ownedOperation xmi:id="_VH3DALI_EeWqIZUiFnKv9w" name="addItemToCart">
+                  <ownedParameter xmi:id="_VH3qELI_EeWqIZUiFnKv9w" name="item" type="_Uqt0ALI_EeWqIZUiFnKv9w"/>
+                </ownedOperation>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_VMlK8LI_EeWqIZUiFnKv9w" name="" memberEnd="_VMlK8bI_EeWqIZUiFnKv9w _VKjKoLI_EeWqIZUiFnKv9w">
+              <ownedEnd xmi:id="_VMlK8bI_EeWqIZUiFnKv9w" name="" type="_Uom7MLI_EeWqIZUiFnKv9w" association="_VMlK8LI_EeWqIZUiFnKv9w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_VMnAIbI_EeWqIZUiFnKv9w" name="" memberEnd="_VMnAIrI_EeWqIZUiFnKv9w _VKoqMLI_EeWqIZUiFnKv9w">
+              <ownedEnd xmi:id="_VMnAIrI_EeWqIZUiFnKv9w" name="" type="_Uom7MLI_EeWqIZUiFnKv9w" association="_VMnAIbI_EeWqIZUiFnKv9w"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Uhip4bI_EeWqIZUiFnKv9w" name="item">
+            <packagedElement xmi:type="uml:Class" xmi:id="_UpqrILI_EeWqIZUiFnKv9w" name="Item">
+              <ownedComment xmi:id="_VMUFMbI_EeWqIZUiFnKv9w">
+                <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_VK03cLI_EeWqIZUiFnKv9w" name="name" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_VK2soLI_EeWqIZUiFnKv9w" name="itemPrice" visibility="protected">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_VK4h0LI_EeWqIZUiFnKv9w" name="itemType" visibility="private" type="_UqXOsLI_EeWqIZUiFnKv9w"/>
+              <ownedAttribute xmi:id="_VK6XALI_EeWqIZUiFnKv9w" name="taxCalculator" visibility="private" type="_UshK0LI_EeWqIZUiFnKv9w" association="_VMo1UbI_EeWqIZUiFnKv9w"/>
+              <interfaceRealization xmi:id="_VIFFcLI_EeWqIZUiFnKv9w" client="_UpqrILI_EeWqIZUiFnKv9w" supplier="_Uqt0ALI_EeWqIZUiFnKv9w" contract="_Uqt0ALI_EeWqIZUiFnKv9w"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL2LILI_EeWqIZUiFnKv9w" name="Item" specification="_UpuVgLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL2LIbI_EeWqIZUiFnKv9w" type="_UpqrILI_EeWqIZUiFnKv9w" direction="return"/>
+                <language>java</language>
+                <body>super();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL3ZQLI_EeWqIZUiFnKv9w" name="Item" specification="_VIIIwLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL3ZQbI_EeWqIZUiFnKv9w" name="taxCalculator" type="_UshK0LI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VL3ZQrI_EeWqIZUiFnKv9w" type="_UpqrILI_EeWqIZUiFnKv9w" direction="return"/>
+                <language>java</language>
+                <body>this.taxCalculator = taxCalculator;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL4AULI_EeWqIZUiFnKv9w" name="setItemDescription" specification="_UpxY0LI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL4AUbI_EeWqIZUiFnKv9w" name="description">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>name = description;&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL5OcLI_EeWqIZUiFnKv9w" name="getItemDescription" specification="_Up0cILI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL5OcbI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return name;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL51gLI_EeWqIZUiFnKv9w" name="setItemPrice" specification="_Up24YLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL51gbI_EeWqIZUiFnKv9w" name="price">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>itemPrice = price;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL6ckLI_EeWqIZUiFnKv9w" name="getItemPrice" specification="_Up5UoLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL7DoLI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return itemPrice;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL7qsLI_EeWqIZUiFnKv9w" name="setItemType" specification="_VILMELI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL7qsbI_EeWqIZUiFnKv9w" name="itemTyp" type="_UqXOsLI_EeWqIZUiFnKv9w"/>
+                <language>java</language>
+                <body>itemType = itemTyp;&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL8RwLI_EeWqIZUiFnKv9w" name="isTaxExempted" specification="_Up7w4LI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL8RwbI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return itemType.isTaxExempted();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL840LI_EeWqIZUiFnKv9w" name="isImportedItem" specification="_Up9mELI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL840bI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return itemType.isImportedItem();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL9f4LI_EeWqIZUiFnKv9w" name="getItemSaleTax" specification="_Up_bQLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL9f4bI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return (taxCalculator.calculateTax(this));&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL9f4rI_EeWqIZUiFnKv9w" name="getItemTotalPrice" specification="_UqBQcLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL9f47I_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return getItemSaleTax()+getItemPrice();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL-G8LI_EeWqIZUiFnKv9w" name="toString" specification="_UqDssLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL-G8bI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return 1+ &quot; &quot;+name+&quot; :&quot; +getItemTotalPrice();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_UpuVgLI_EeWqIZUiFnKv9w" name="Item" method="_VL2LILI_EeWqIZUiFnKv9w">
+                <eAnnotations xmi:id="_Upu8kLI_EeWqIZUiFnKv9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_Upu8kbI_EeWqIZUiFnKv9w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_Upu8krI_EeWqIZUiFnKv9w" type="_UpqrILI_EeWqIZUiFnKv9w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_UpxY0LI_EeWqIZUiFnKv9w" name="setItemDescription" method="_VL4AULI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_Upx_4LI_EeWqIZUiFnKv9w" name="description">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Up0cILI_EeWqIZUiFnKv9w" name="getItemDescription" method="_VL5OcLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_Up1DMLI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Up24YLI_EeWqIZUiFnKv9w" name="setItemPrice" method="_VL51gLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_Up3fcLI_EeWqIZUiFnKv9w" name="price">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Up5UoLI_EeWqIZUiFnKv9w" name="getItemPrice" method="_VL6ckLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_Up57sLI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Up7w4LI_EeWqIZUiFnKv9w" name="isTaxExempted" method="_VL8RwLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_Up8X8LI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Up9mELI_EeWqIZUiFnKv9w" name="isImportedItem" method="_VL840LI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_Up-NILI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Up_bQLI_EeWqIZUiFnKv9w" name="getItemSaleTax" method="_VL9f4LI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_Up_bQbI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_UqBQcLI_EeWqIZUiFnKv9w" name="getItemTotalPrice" method="_VL9f4rI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_UqB3gLI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_UqDssLI_EeWqIZUiFnKv9w" name="toString" method="_VL-G8LI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_UqETwLI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_VIIIwLI_EeWqIZUiFnKv9w" name="Item" method="_VL3ZQLI_EeWqIZUiFnKv9w">
+                <eAnnotations xmi:id="_VIIv0bI_EeWqIZUiFnKv9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_VIJW4LI_EeWqIZUiFnKv9w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_VIIv0LI_EeWqIZUiFnKv9w" name="taxCalculator" type="_UshK0LI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VIJW4bI_EeWqIZUiFnKv9w" type="_UpqrILI_EeWqIZUiFnKv9w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_VILMELI_EeWqIZUiFnKv9w" name="setItemType" method="_VL7qsLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VILMEbI_EeWqIZUiFnKv9w" name="itemTyp" type="_UqXOsLI_EeWqIZUiFnKv9w"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_UhjQ8LI_EeWqIZUiFnKv9w" name="interfce">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_Uqt0ALI_EeWqIZUiFnKv9w" name="IItem">
+                <ownedComment xmi:id="_VMXIgLI_EeWqIZUiFnKv9w">
+                  <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_UqvCILI_EeWqIZUiFnKv9w" name="itemDescription">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_UqvpMLI_EeWqIZUiFnKv9w" name="itemPrice">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_UqyFcbI_EeWqIZUiFnKv9w" name="itemSaleTax" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_UqysgLI_EeWqIZUiFnKv9w" name="itemTotalPrice" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_Uqw3ULI_EeWqIZUiFnKv9w" name="isTaxExempted">
+                  <ownedParameter xmi:id="_Uqw3UbI_EeWqIZUiFnKv9w" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_UqxeYLI_EeWqIZUiFnKv9w" name="isImportedItem">
+                  <ownedParameter xmi:id="_UqyFcLI_EeWqIZUiFnKv9w" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_VIacoLI_EeWqIZUiFnKv9w" name="setItemType">
+                  <ownedParameter xmi:id="_VIbDsLI_EeWqIZUiFnKv9w" name="itemType" type="_UqXOsLI_EeWqIZUiFnKv9w"/>
+                </ownedOperation>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_Uh5PMLI_EeWqIZUiFnKv9w" name="eenum">
+              <packagedElement xmi:type="uml:Class" xmi:id="_UqVZgLI_EeWqIZUiFnKv9w" name="ItemProperties">
+                <ownedComment xmi:id="_VMUsQLI_EeWqIZUiFnKv9w">
+                  <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+                </ownedComment>
+                <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_UqXOsLI_EeWqIZUiFnKv9w" name="ItemType">
+                  <ownedAttribute xmi:id="_VLCS0LI_EeWqIZUiFnKv9w" name="isTaxExempted" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_VLIZcLI_EeWqIZUiFnKv9w" name="isImportedItem" visibility="private">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  </ownedAttribute>
+                  <ownedOperation xmi:id="_UqgYoLI_EeWqIZUiFnKv9w" name="ItemType" visibility="private" method="_VL_8ILI_EeWqIZUiFnKv9w">
+                    <eAnnotations xmi:id="_UqhmwLI_EeWqIZUiFnKv9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_UqhmwbI_EeWqIZUiFnKv9w" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_UqgYobI_EeWqIZUiFnKv9w" name="exepmted">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_Uqg_sLI_EeWqIZUiFnKv9w" name="imported">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_UqhmwrI_EeWqIZUiFnKv9w" type="_UqXOsLI_EeWqIZUiFnKv9w" direction="return"/>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_Uqi04LI_EeWqIZUiFnKv9w" name="isImportedItem" method="_VMAjMLI_EeWqIZUiFnKv9w">
+                    <ownedParameter xmi:id="_Uqjb8LI_EeWqIZUiFnKv9w" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_UqkDALI_EeWqIZUiFnKv9w" name="isTaxExempted" method="_VMAjMrI_EeWqIZUiFnKv9w">
+                    <ownedParameter xmi:id="_UqkqELI_EeWqIZUiFnKv9w" direction="return">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                  <ownedLiteral xmi:id="_UqYc0LI_EeWqIZUiFnKv9w" name="BOOK_MEDICAL_FOOD">
+                    <specification xmi:type="uml:Expression" xmi:id="_UqZD4LI_EeWqIZUiFnKv9w">
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMVTULI_EeWqIZUiFnKv9w" value="true"/>
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMVTUbI_EeWqIZUiFnKv9w" value="false"/>
+                    </specification>
+                  </ownedLiteral>
+                  <ownedLiteral xmi:id="_UqZD4bI_EeWqIZUiFnKv9w" name="OTHERS_ITEMS">
+                    <specification xmi:type="uml:Expression" xmi:id="_UqZq8LI_EeWqIZUiFnKv9w">
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMVTUrI_EeWqIZUiFnKv9w" value="false"/>
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMV6YLI_EeWqIZUiFnKv9w" value="false"/>
+                    </specification>
+                  </ownedLiteral>
+                  <ownedLiteral xmi:id="_UqZq8bI_EeWqIZUiFnKv9w" name="IMPORTED_BOOK_MEDICAL_FOOD">
+                    <specification xmi:type="uml:Expression" xmi:id="_UqaSALI_EeWqIZUiFnKv9w">
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMV6YbI_EeWqIZUiFnKv9w" value="true"/>
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMWhcLI_EeWqIZUiFnKv9w" value="true"/>
+                    </specification>
+                  </ownedLiteral>
+                  <ownedLiteral xmi:id="_UqaSAbI_EeWqIZUiFnKv9w" name="IMPORTED_OTHERS_ITEMS">
+                    <specification xmi:type="uml:Expression" xmi:id="_Uqa5ELI_EeWqIZUiFnKv9w">
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMWhcbI_EeWqIZUiFnKv9w" value="false"/>
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMWhcrI_EeWqIZUiFnKv9w" value="true"/>
+                    </specification>
+                  </ownedLiteral>
+                </nestedClassifier>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_Uh52QLI_EeWqIZUiFnKv9w" name="ItemProperties">
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_VH9wsLI_EeWqIZUiFnKv9w" name="ItemType"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_VMo1UbI_EeWqIZUiFnKv9w" name="" memberEnd="_VMo1UrI_EeWqIZUiFnKv9w _VK6XALI_EeWqIZUiFnKv9w">
+              <ownedEnd xmi:id="_VMo1UrI_EeWqIZUiFnKv9w" name="" type="_UpqrILI_EeWqIZUiFnKv9w" association="_VMo1UbI_EeWqIZUiFnKv9w"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Uh6dULI_EeWqIZUiFnKv9w" name="util">
+            <packagedElement xmi:type="uml:Class" xmi:id="_UstYELI_EeWqIZUiFnKv9w" name="ApplicationContextUtil">
+              <ownedComment xmi:id="_VMcoELI_EeWqIZUiFnKv9w">
+                <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_VLlFYLI_EeWqIZUiFnKv9w" name="applicationContext" visibility="private" isStatic="true" type="_VJWQwLI_EeWqIZUiFnKv9w" association="_VMvjALI_EeWqIZUiFnKv9w"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMMwcLI_EeWqIZUiFnKv9w" name="getBean" specification="_UswbYLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VMMwcbI_EeWqIZUiFnKv9w" name="beanName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VMMwcrI_EeWqIZUiFnKv9w" type="_VKECcbI_EeWqIZUiFnKv9w" direction="return"/>
+                <language>java</language>
+                <body>//Check for null value of class id&#xD;
+		if (beanName != null) {&#xD;
+			//get application context&#xD;
+			applicationContext = new ClassPathXmlApplicationContext(&quot;SpringConfig.xml&quot;);&#xD;
+			//return bean instance&#xD;
+			return applicationContext.getBean(beanName);&#xD;
+		} else&#xD;
+			return null;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_UswbYLI_EeWqIZUiFnKv9w" name="getBean" isStatic="true" method="_VMMwcLI_EeWqIZUiFnKv9w">
+                <ownedComment xmi:id="_VMcoEbI_EeWqIZUiFnKv9w">
+                  <body>This method is used to get class instance using Dependency Injection mechanism.&#xD;
+	 *  It reads the Spring configuration file and fetches the required class instance by &#xD;
+	 *  passing the class id configured in the xml file. &#xD;
+	 * @param beanName&#xD;
+	 * @return</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_UswbYbI_EeWqIZUiFnKv9w" name="beanName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VKXkcLI_EeWqIZUiFnKv9w" type="_VKECcbI_EeWqIZUiFnKv9w" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_VMvjALI_EeWqIZUiFnKv9w" name="" memberEnd="_VMvjAbI_EeWqIZUiFnKv9w _VLlFYLI_EeWqIZUiFnKv9w">
+              <ownedEnd xmi:id="_VMvjAbI_EeWqIZUiFnKv9w" name="" type="_UstYELI_EeWqIZUiFnKv9w" association="_VMvjALI_EeWqIZUiFnKv9w"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_UiDAMLI_EeWqIZUiFnKv9w" name="execute">
+            <packagedElement xmi:type="uml:Class" xmi:id="_UpXwMLI_EeWqIZUiFnKv9w" name="Main">
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VL09ALI_EeWqIZUiFnKv9w" name="main" specification="_Upj9cLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VL09AbI_EeWqIZUiFnKv9w" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VL09ArI_EeWqIZUiFnKv9w" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>//Scans the &#xD;
+     Scanner input = new Scanner(System.in);&#xD;
+     //This has list of all available items in the application&#xD;
+     ItemTypeList list[] = ItemTypeList.values();&#xD;
+     StringBuilder buffer = new StringBuilder();&#xD;
+     int count = 1;&#xD;
+     //while iterating through the loop, we are building Menu for items&#xD;
+     for (ItemTypeList item : list) {&#xD;
+         buffer.append(count++).append(&quot; :&quot;).append(item.getItemName() + &quot;\n&quot;);&#xD;
+     }&#xD;
+     String productList = buffer.toString() + &quot;0 :Exit and Print Receipt\nSelect Item : \n&quot;;&#xD;
+     ItemType[] itemTypes = ItemType.values();&#xD;
+&#xD;
+     buffer.delete(0, buffer.length());&#xD;
+     //This appends menu number for the items&#xD;
+     for (ItemType itemType : itemTypes) {&#xD;
+         buffer.append(itemType.ordinal()).append(&quot; :&quot;).append(itemType.name() + &quot;\n&quot;);&#xD;
+     }&#xD;
+     String itemTypeList = &quot;Available Item Categories: \n&quot; + buffer;&#xD;
+     &#xD;
+     //getting the cart instance using dependency injection concept using Spring framework.&#xD;
+     ICart cart = (ICart) ApplicationContextUtil.getBean(&quot;cartBean&quot;);&#xD;
+     &#xD;
+     //This loop is to add products to the cart. On press of 0 will exit this loop and generate&#xD;
+     //receipt&#xD;
+     while (true) {&#xD;
+         System.out.println(productList);&#xD;
+         //Reads product input.&#xD;
+         int product = input.nextInt();&#xD;
+         if (product == 0) {&#xD;
+             break;&#xD;
+         }&#xD;
+       //getting the Item instance using dependency injection concept using Spring framework.&#xD;
+         IItem item = (IItem) ApplicationContextUtil.getBean(&quot;itemBean&quot;);&#xD;
+         item.setItemDescription(list[product - 1].getItemName());&#xD;
+         System.out.println(&quot;Enter Price:&quot;);&#xD;
+         //Reading price for the item&#xD;
+         item.setItemPrice(input.nextFloat());&#xD;
+         System.out.println(itemTypeList);&#xD;
+         System.out.println(&quot;Select Item Category:&quot;);&#xD;
+         item.setItemType(itemTypes[input.nextInt()]);&#xD;
+         //Adding item to the cart&#xD;
+         cart.addItemToCart(item);&#xD;
+     }&#xD;
+     input.close();&#xD;
+     //Calculate taxes and printing the receipt.&#xD;
+     cart.calculateAndPrintReceiptDetails();&#xD;
+     &#xD;
+ </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_Upj9cLI_EeWqIZUiFnKv9w" name="main" isStatic="true" method="_VL09ALI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_Upj9cbI_EeWqIZUiFnKv9w" name="args">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UpkkgLI_EeWqIZUiFnKv9w" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_UpaMcLI_EeWqIZUiFnKv9w" name="ItemTypeList" visibility="package">
+                <ownedAttribute xmi:id="_VKx0ILI_EeWqIZUiFnKv9w" name="itemName" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_UpgTELI_EeWqIZUiFnKv9w" name="ItemTypeList" visibility="private" method="_VLzH0LI_EeWqIZUiFnKv9w">
+                  <eAnnotations xmi:id="_Upg6ILI_EeWqIZUiFnKv9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_Upg6IbI_EeWqIZUiFnKv9w" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_UpgTEbI_EeWqIZUiFnKv9w" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Upg6IrI_EeWqIZUiFnKv9w" type="_UpaMcLI_EeWqIZUiFnKv9w" direction="return"/>
+                </ownedOperation>
+                <ownedLiteral xmi:id="_UpbakLI_EeWqIZUiFnKv9w" name="BOOK">
+                  <specification xmi:type="uml:Expression" xmi:id="_UpcBoLI_EeWqIZUiFnKv9w">
+                    <operand xmi:type="uml:LiteralString" xmi:id="_VMS3EbI_EeWqIZUiFnKv9w" value="&quot;Books&quot;"/>
+                  </specification>
+                </ownedLiteral>
+                <ownedLiteral xmi:id="_UpcBobI_EeWqIZUiFnKv9w" name="MUSIC_CD">
+                  <specification xmi:type="uml:Expression" xmi:id="_UpcosLI_EeWqIZUiFnKv9w">
+                    <operand xmi:type="uml:LiteralString" xmi:id="_VMTeILI_EeWqIZUiFnKv9w" value="&quot;Music CD&quot;"/>
+                  </specification>
+                </ownedLiteral>
+                <ownedLiteral xmi:id="_UpcosbI_EeWqIZUiFnKv9w" name="CHOCOLATE">
+                  <specification xmi:type="uml:Expression" xmi:id="_UpcosrI_EeWqIZUiFnKv9w">
+                    <operand xmi:type="uml:LiteralString" xmi:id="_VMTeIbI_EeWqIZUiFnKv9w" value="&quot;Chocolates&quot;"/>
+                  </specification>
+                </ownedLiteral>
+                <ownedLiteral xmi:id="_UpdPwLI_EeWqIZUiFnKv9w" name="PERFUME">
+                  <specification xmi:type="uml:Expression" xmi:id="_UpdPwbI_EeWqIZUiFnKv9w">
+                    <operand xmi:type="uml:LiteralString" xmi:id="_VMTeIrI_EeWqIZUiFnKv9w" value="&quot;Perfume&quot;"/>
+                  </specification>
+                </ownedLiteral>
+                <ownedLiteral xmi:id="_UpdPwrI_EeWqIZUiFnKv9w" name="PILLS">
+                  <specification xmi:type="uml:Expression" xmi:id="_Upd20LI_EeWqIZUiFnKv9w">
+                    <operand xmi:type="uml:LiteralString" xmi:id="_VMUFMLI_EeWqIZUiFnKv9w" value="&quot;Headache Pills&quot;"/>
+                  </specification>
+                </ownedLiteral>
+              </nestedClassifier>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_UiGqkLI_EeWqIZUiFnKv9w" name="tax">
+            <packagedElement xmi:type="uml:Class" xmi:id="_UsIJQLI_EeWqIZUiFnKv9w" name="TaxCalculator">
+              <ownedComment xmi:id="_VMaL0rI_EeWqIZUiFnKv9w">
+                <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_VLgM4LI_EeWqIZUiFnKv9w" name="ROUNDOFF" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_VLgM4bI_EeWqIZUiFnKv9w" value="0.05f"/>
+              </ownedAttribute>
+              <interfaceRealization xmi:id="_VJHnQbI_EeWqIZUiFnKv9w" client="_UsIJQLI_EeWqIZUiFnKv9w" supplier="_UshK0LI_EeWqIZUiFnKv9w" contract="_UshK0LI_EeWqIZUiFnKv9w"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMH38LI_EeWqIZUiFnKv9w" name="calculateTax" specification="_VJIOULI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VMH38bI_EeWqIZUiFnKv9w" name="item" type="_Uqt0ALI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VMH38rI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return roundOffTax(getItemTaxType(item).getApplicableTax() * item.getItemPrice());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMJGELI_EeWqIZUiFnKv9w" name="getItemTaxType" specification="_VJLRoLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VMJGEbI_EeWqIZUiFnKv9w" name="item" type="_Uqt0ALI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VMJGErI_EeWqIZUiFnKv9w" type="_UsU9kLI_EeWqIZUiFnKv9w" direction="return"/>
+                <language>java</language>
+                <body>//Below logic checks whether the item is normal or imported.&#xD;
+		//Based on type of item it applies sales tax and imported tax.&#xD;
+		if(item.isImportedItem() &amp;&amp; !item.isTaxExempted()){&#xD;
+			return TaxType.BOTH_TAXES;&#xD;
+		}else if( item.isImportedItem() &amp;&amp; item.isTaxExempted()){&#xD;
+			return TaxType.IMPORTED_TAX;&#xD;
+		}else if( !item.isImportedItem() &amp;&amp; !item.isTaxExempted()){&#xD;
+			return TaxType.BASIC_SALES_TAX;&#xD;
+		}&#xD;
+		//In case of Food, Medical or Books. No Tax will be applicable.&#xD;
+		return TaxType.NO_TAX;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMJtILI_EeWqIZUiFnKv9w" name="roundOffTax" specification="_UsLzoLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VMJtIbI_EeWqIZUiFnKv9w" name="tax">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VMJtIrI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>//It round off the tax value.&#xD;
+		return  (float)Math.ceil(tax/ROUNDOFF)*ROUNDOFF;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_UsLzoLI_EeWqIZUiFnKv9w" name="roundOffTax" visibility="private" method="_VMJtILI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_UsLzobI_EeWqIZUiFnKv9w" name="tax">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_UsMasLI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_VJIOULI_EeWqIZUiFnKv9w" name="calculateTax" method="_VMH38LI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VJI1YLI_EeWqIZUiFnKv9w" name="item" type="_Uqt0ALI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VJJccLI_EeWqIZUiFnKv9w" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_VJLRoLI_EeWqIZUiFnKv9w" name="getItemTaxType" visibility="private" method="_VMJGELI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VJLRobI_EeWqIZUiFnKv9w" name="item" type="_Uqt0ALI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VJL4sLI_EeWqIZUiFnKv9w" type="_UsU9kLI_EeWqIZUiFnKv9w" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_UiHRoLI_EeWqIZUiFnKv9w" name="interfce">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_UshK0LI_EeWqIZUiFnKv9w" name="ITaxCalculator">
+                <ownedComment xmi:id="_VMcBALI_EeWqIZUiFnKv9w">
+                  <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+                </ownedComment>
+                <ownedOperation xmi:id="_VJSmYLI_EeWqIZUiFnKv9w" name="calculateTax">
+                  <ownedParameter xmi:id="_VJSmYbI_EeWqIZUiFnKv9w" name="item" type="_Uqt0ALI_EeWqIZUiFnKv9w"/>
+                  <ownedParameter xmi:id="_VJTNcLI_EeWqIZUiFnKv9w" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_UkfQMLI_EeWqIZUiFnKv9w" name="eenum">
+              <packagedElement xmi:type="uml:Class" xmi:id="_UsTvcLI_EeWqIZUiFnKv9w" name="ApplicableTaxRates">
+                <ownedComment xmi:id="_VMaL07I_EeWqIZUiFnKv9w">
+                  <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+                </ownedComment>
+                <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_UsU9kLI_EeWqIZUiFnKv9w" name="TaxType">
+                  <ownedAttribute xmi:id="_VLj3QLI_EeWqIZUiFnKv9w" name="applicableTax" isReadOnly="true">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedAttribute>
+                  <ownedOperation xmi:id="_UsadILI_EeWqIZUiFnKv9w" name="TaxType" visibility="private" method="_VMKUMLI_EeWqIZUiFnKv9w">
+                    <eAnnotations xmi:id="_UsbEMbI_EeWqIZUiFnKv9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                      <details xmi:id="_UsbEMrI_EeWqIZUiFnKv9w" key="create"/>
+                    </eAnnotations>
+                    <ownedParameter xmi:id="_UsbEMLI_EeWqIZUiFnKv9w" name="tax">
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                    </ownedParameter>
+                    <ownedParameter xmi:id="_UsbrQLI_EeWqIZUiFnKv9w" type="_UsU9kLI_EeWqIZUiFnKv9w" direction="return"/>
+                  </ownedOperation>
+                  <ownedLiteral xmi:id="_UsVkoLI_EeWqIZUiFnKv9w" name="NO_TAX">
+                    <specification xmi:type="uml:Expression" xmi:id="_UsWLsLI_EeWqIZUiFnKv9w">
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMay4LI_EeWqIZUiFnKv9w" value="0"/>
+                    </specification>
+                  </ownedLiteral>
+                  <ownedLiteral xmi:id="_UsWLsbI_EeWqIZUiFnKv9w" name="BASIC_SALES_TAX">
+                    <specification xmi:type="uml:Expression" xmi:id="_UsWLsrI_EeWqIZUiFnKv9w">
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMay4bI_EeWqIZUiFnKv9w" value="0.1f"/>
+                    </specification>
+                  </ownedLiteral>
+                  <ownedLiteral xmi:id="_UsWywLI_EeWqIZUiFnKv9w" name="IMPORTED_TAX">
+                    <specification xmi:type="uml:Expression" xmi:id="_UsWywbI_EeWqIZUiFnKv9w">
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMbZ8LI_EeWqIZUiFnKv9w" value="0.05f"/>
+                    </specification>
+                  </ownedLiteral>
+                  <ownedLiteral xmi:id="_UsWywrI_EeWqIZUiFnKv9w" name="BOTH_TAXES">
+                    <specification xmi:type="uml:Expression" xmi:id="_UsXZ0LI_EeWqIZUiFnKv9w">
+                      <operand xmi:type="uml:LiteralString" xmi:id="_VMbZ8bI_EeWqIZUiFnKv9w" value="BASIC_SALES_TAX.getApplicableTax()+IMPORTED_TAX.getApplicableTax()"/>
+                    </specification>
+                  </ownedLiteral>
+                </nestedClassifier>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_Ukf3QLI_EeWqIZUiFnKv9w" name="ApplicableTaxRates">
+                <packagedElement xmi:type="uml:Enumeration" xmi:id="_VJFLALI_EeWqIZUiFnKv9w" name="TaxType"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_UjpisLI_EeWqIZUiFnKv9w" name="jUnit">
+            <packagedElement xmi:type="uml:Class" xmi:id="_Uq2W4LI_EeWqIZUiFnKv9w" name="CartTest">
+              <ownedComment xmi:id="_VMXvkLI_EeWqIZUiFnKv9w">
+                <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_VLMq4LI_EeWqIZUiFnKv9w" name="itemList" visibility="private" type="_Uqt0ALI_EeWqIZUiFnKv9w" isOrdered="true" association="_VMrRkbI_EeWqIZUiFnKv9w">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VLNR8LI_EeWqIZUiFnKv9w" value="*"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_VLPuMLI_EeWqIZUiFnKv9w" name="expectedTotalSalexTax" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_VLRjYLI_EeWqIZUiFnKv9w" name="exptecdTotalCost" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMCYYLI_EeWqIZUiFnKv9w" name="CartTest" specification="_VJ8tsLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VMCYYbI_EeWqIZUiFnKv9w" name="list" type="_VHRNILI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VMCYYrI_EeWqIZUiFnKv9w" name="totalCost">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VMCYY7I_EeWqIZUiFnKv9w" name="totalSalexTax">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VMCYZLI_EeWqIZUiFnKv9w" type="_Uq2W4LI_EeWqIZUiFnKv9w" direction="return"/>
+                <language>java</language>
+                <body>itemList = list;&#xD;
+		exptecdTotalCost = totalCost;&#xD;
+		expectedTotalSalexTax = totalSalexTax;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMC_cLI_EeWqIZUiFnKv9w" name="data" specification="_Uq7PYLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VMC_cbI_EeWqIZUiFnKv9w" type="_VIeHAbI_EeWqIZUiFnKv9w" direction="return"/>
+                <language>java</language>
+                <body>Object[][] data = new Object[][] {&#xD;
+			   { createItemList(new Object[][]{ItemTestHelper.ITEM_LIST[0], ItemTestHelper.ITEM_LIST[1], ItemTestHelper.ITEM_LIST[2]}), 29.83f , 1.50f},&#xD;
+			   { createItemList(new Object[][]{ItemTestHelper.ITEM_LIST[3], ItemTestHelper.ITEM_LIST[4]}), 65.15f , 7.65f},&#xD;
+			   { createItemList(new Object[][]{ItemTestHelper.ITEM_LIST[5], ItemTestHelper.ITEM_LIST[6], ItemTestHelper.ITEM_LIST[7], ItemTestHelper.ITEM_LIST[8]}), 74.68f , 6.70f} };&#xD;
+	   return Arrays.asList(data);&#xD;
+	 </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMDmgLI_EeWqIZUiFnKv9w" name="createItemList" specification="_VKIT4bI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VMDmgbI_EeWqIZUiFnKv9w" name="data" type="_VKECcbI_EeWqIZUiFnKv9w">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VMDmgrI_EeWqIZUiFnKv9w" value="*"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VMDmg7I_EeWqIZUiFnKv9w" type="_Uqt0ALI_EeWqIZUiFnKv9w" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VMDmhLI_EeWqIZUiFnKv9w" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>List&lt;IItem> list = new ArrayList&lt;IItem>();&#xD;
+		 for(Object[] item: data){&#xD;
+			 list.add(ItemTestHelper.createItem((String)item[0],(Float)item[1], (ItemType)item[2]));&#xD;
+		 }&#xD;
+		 return list;&#xD;
+	 </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMDmhbI_EeWqIZUiFnKv9w" name="testCartCostAndTax" specification="_UrDLMLI_EeWqIZUiFnKv9w">
+                <language>java</language>
+                <body>ICart cart = (ICart) ApplicationContextUtil.getBean(&quot;cartBean&quot;);&#xD;
+		 for(IItem item : itemList){&#xD;
+			 cart.addItemToCart(item);&#xD;
+		 }&#xD;
+		 cart.getTotalPrice();&#xD;
+		 Assert.assertEquals(&quot;test failed for sales tax&quot; , expectedTotalSalexTax ,cart.getSalesTaxPrice(), 0.0f );&#xD;
+		 Assert.assertEquals(&quot;test failed for total cost&quot; , exptecdTotalCost ,cart.getTotalPrice(), 0.0f );&#xD;
+	 </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_Uq7PYLI_EeWqIZUiFnKv9w" name="data" isStatic="true" method="_VMC_cLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VKC0ULI_EeWqIZUiFnKv9w" type="_VIeHAbI_EeWqIZUiFnKv9w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_UrDLMLI_EeWqIZUiFnKv9w" name="testCartCostAndTax" method="_VMDmhbI_EeWqIZUiFnKv9w"/>
+              <ownedOperation xmi:id="_VJ8tsLI_EeWqIZUiFnKv9w" name="CartTest" method="_VMCYYLI_EeWqIZUiFnKv9w">
+                <eAnnotations xmi:id="_VJ970LI_EeWqIZUiFnKv9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_VJ970bI_EeWqIZUiFnKv9w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_VJ8tsbI_EeWqIZUiFnKv9w" name="list" type="_VHRNILI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VJ8tsrI_EeWqIZUiFnKv9w" name="totalCost">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VJ9UwLI_EeWqIZUiFnKv9w" name="totalSalexTax">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VJ970rI_EeWqIZUiFnKv9w" type="_Uq2W4LI_EeWqIZUiFnKv9w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_VKIT4bI_EeWqIZUiFnKv9w" name="createItemList" visibility="private" isStatic="true" method="_VMDmgLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VKI68LI_EeWqIZUiFnKv9w" name="data" type="_VKECcbI_EeWqIZUiFnKv9w">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VKKJELI_EeWqIZUiFnKv9w" value="*"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VKI68bI_EeWqIZUiFnKv9w" type="_Uqt0ALI_EeWqIZUiFnKv9w" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VKJiALI_EeWqIZUiFnKv9w" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_UrWGILI_EeWqIZUiFnKv9w" name="ItemTest">
+              <ownedAttribute xmi:id="_VLVNwLI_EeWqIZUiFnKv9w" name="description" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_VLWb4LI_EeWqIZUiFnKv9w" name="price" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_VLXqALI_EeWqIZUiFnKv9w" name="itemType" visibility="private" type="_UqXOsLI_EeWqIZUiFnKv9w"/>
+              <ownedAttribute xmi:id="_VLY4ILI_EeWqIZUiFnKv9w" name="expectedPriceWithTax" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMFbsLI_EeWqIZUiFnKv9w" name="ItemTest" specification="_VI4WsLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VMFbsbI_EeWqIZUiFnKv9w" name="desc">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VMFbsrI_EeWqIZUiFnKv9w" name="aPrice">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VMFbs7I_EeWqIZUiFnKv9w" name="type" type="_UqXOsLI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VMFbtLI_EeWqIZUiFnKv9w" name="costWithTax">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VMFbtbI_EeWqIZUiFnKv9w" type="_UrWGILI_EeWqIZUiFnKv9w" direction="return"/>
+                <language>java</language>
+                <body>description = desc;&#xD;
+		price = aPrice;&#xD;
+		itemType = type;&#xD;
+		expectedPriceWithTax = costWithTax;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMGCwLI_EeWqIZUiFnKv9w" name="data" specification="_Urf3ILI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VMGCwbI_EeWqIZUiFnKv9w" type="_VIeHAbI_EeWqIZUiFnKv9w" direction="return"/>
+                <language>java</language>
+                <body>Object[][] data = ItemTestHelper.ITEM_LIST;&#xD;
+	   return Arrays.asList(data);&#xD;
+	 </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMGCwrI_EeWqIZUiFnKv9w" name="testItemPriceWithTax" specification="_UrlWsLI_EeWqIZUiFnKv9w">
+                <language>java</language>
+                <body>IItem item = ItemTestHelper.createItem(description, price, itemType);&#xD;
+		Assert.assertEquals(&quot;test failed for price with tax&quot;+item.getItemDescription(), expectedPriceWithTax ,item.getItemTotalPrice(), 0.0f );&#xD;
+	 </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_Urf3ILI_EeWqIZUiFnKv9w" name="data" isStatic="true" method="_VMGCwLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VKQPsLI_EeWqIZUiFnKv9w" type="_VIeHAbI_EeWqIZUiFnKv9w" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_UrlWsLI_EeWqIZUiFnKv9w" name="testItemPriceWithTax" method="_VMGCwrI_EeWqIZUiFnKv9w"/>
+              <ownedOperation xmi:id="_VI4WsLI_EeWqIZUiFnKv9w" name="ItemTest" method="_VMFbsLI_EeWqIZUiFnKv9w">
+                <eAnnotations xmi:id="_VI5k0LI_EeWqIZUiFnKv9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_VI5k0bI_EeWqIZUiFnKv9w" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_VI4WsbI_EeWqIZUiFnKv9w" name="desc">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VI4WsrI_EeWqIZUiFnKv9w" name="aPrice">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VI49wLI_EeWqIZUiFnKv9w" name="type" type="_UqXOsLI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VI49wbI_EeWqIZUiFnKv9w" name="costWithTax">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VI5k0rI_EeWqIZUiFnKv9w" type="_UrWGILI_EeWqIZUiFnKv9w" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Ur6G0LI_EeWqIZUiFnKv9w" name="ItemTestHelper">
+              <ownedComment xmi:id="_VMZkwLI_EeWqIZUiFnKv9w">
+                <body>@author dileepkumarrongali@yahoo.com&#xD;
+ *</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_VLb7cLI_EeWqIZUiFnKv9w" name="ITEM_LIST" isStatic="true" type="_VKECcbI_EeWqIZUiFnKv9w" association="_VMtt0LI_EeWqIZUiFnKv9w">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VLcigLI_EeWqIZUiFnKv9w" value="*"/>
+                <defaultValue xmi:type="uml:LiteralString" xmi:id="_VLdJkbI_EeWqIZUiFnKv9w" value="new Object[][] {&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;book&quot;, 12.49f , ItemType.BOOK_MEDICAL_FOOD , 12.49f },&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;Music CD&quot;, 14.99f , ItemType.OTHERS_ITEMS , 16.49f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;chocolate bar&quot; , 0.85f , ItemType.BOOK_MEDICAL_FOOD , 0.85f} ,&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;imported box of chocolates&quot;, 10.00f, ItemType.IMPORTED_BOOK_MEDICAL_FOOD, 10.50f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;imported bottle of perfume&quot;, 47.50f, ItemType.IMPORTED_OTHERS_ITEMS, 54.65f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;imported bottle of perfume&quot;, 27.99f,ItemType.IMPORTED_OTHERS_ITEMS , 32.19f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;bottle of perfume&quot;, 18.99f, ItemType.OTHERS_ITEMS , 20.89f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;packet of headache pills&quot;, 9.75f , ItemType.BOOK_MEDICAL_FOOD, 9.75f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;box of imported chocolates&quot;,11.25f,ItemType.IMPORTED_BOOK_MEDICAL_FOOD, 11.85f}&#xD;&#xA;&#x9;&#x9;&#x9;   }"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMHQ4LI_EeWqIZUiFnKv9w" name="createItem" specification="_VI_EYLI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VMHQ4bI_EeWqIZUiFnKv9w" name="description">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VMHQ4rI_EeWqIZUiFnKv9w" name="price">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VMHQ47I_EeWqIZUiFnKv9w" name="itemType" type="_UqXOsLI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VMHQ5LI_EeWqIZUiFnKv9w" type="_Uqt0ALI_EeWqIZUiFnKv9w" direction="return"/>
+                <language>java</language>
+                <body>IItem item = (IItem) ApplicationContextUtil.getBean(&quot;itemBean&quot;);&#xD;
+		item.setItemType(itemType);&#xD;
+		item.setItemPrice(price);&#xD;
+		item.setItemDescription(description);&#xD;
+		return item;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_VI_EYLI_EeWqIZUiFnKv9w" name="createItem" isStatic="true" method="_VMHQ4LI_EeWqIZUiFnKv9w">
+                <ownedParameter xmi:id="_VI_EYbI_EeWqIZUiFnKv9w" name="description">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VI_EYrI_EeWqIZUiFnKv9w" name="price">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_VI_rcLI_EeWqIZUiFnKv9w" name="itemType" type="_UqXOsLI_EeWqIZUiFnKv9w"/>
+                <ownedParameter xmi:id="_VI_rcbI_EeWqIZUiFnKv9w" type="_Uqt0ALI_EeWqIZUiFnKv9w" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_UsD30LI_EeWqIZUiFnKv9w" name="ShoppingTestSuit"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_VMrRkbI_EeWqIZUiFnKv9w" name="" memberEnd="_VMrRkrI_EeWqIZUiFnKv9w _VLMq4LI_EeWqIZUiFnKv9w">
+              <ownedEnd xmi:id="_VMrRkrI_EeWqIZUiFnKv9w" name="" type="_Uq2W4LI_EeWqIZUiFnKv9w" association="_VMrRkbI_EeWqIZUiFnKv9w"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_VMtt0LI_EeWqIZUiFnKv9w" name="" memberEnd="_VMtt0bI_EeWqIZUiFnKv9w _VLb7cLI_EeWqIZUiFnKv9w">
+              <ownedEnd xmi:id="_VMtt0bI_EeWqIZUiFnKv9w" name="" type="_Ur6G0LI_EeWqIZUiFnKv9w" association="_VMtt0LI_EeWqIZUiFnKv9w"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_UlG7QLI_EeWqIZUiFnKv9w" name="test">
+            <packagedElement xmi:type="uml:Class" xmi:id="_UslcQLI_EeWqIZUiFnKv9w" name="CartTest">
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMLiULI_EeWqIZUiFnKv9w" name="testCartTest" specification="_UsmqYLI_EeWqIZUiFnKv9w">
+                <language>java</language>
+                <body>fail(&quot;Not yet implemented&quot;); // TODO&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMLiUbI_EeWqIZUiFnKv9w" name="testData" specification="_UsofkrI_EeWqIZUiFnKv9w">
+                <language>java</language>
+                <body>fail(&quot;Not yet implemented&quot;); // TODO&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VMMJYLI_EeWqIZUiFnKv9w" name="testTestCartCostAndTax" specification="_UsqUwLI_EeWqIZUiFnKv9w">
+                <language>java</language>
+                <body>fail(&quot;Not yet implemented&quot;); // TODO&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_UsmqYLI_EeWqIZUiFnKv9w" name="testCartTest" isLeaf="true" method="_VMLiULI_EeWqIZUiFnKv9w"/>
+              <ownedOperation xmi:id="_UsofkrI_EeWqIZUiFnKv9w" name="testData" isLeaf="true" method="_VMLiUbI_EeWqIZUiFnKv9w"/>
+              <ownedOperation xmi:id="_UsqUwLI_EeWqIZUiFnKv9w" name="testTestCartCostAndTax" isLeaf="true" method="_VMMJYLI_EeWqIZUiFnKv9w"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Uhg0sLI_EeWqIZUiFnKv9w" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Uhg0sbI_EeWqIZUiFnKv9w" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_VHRNILI_EeWqIZUiFnKv9w" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_VHVekLI_EeWqIZUiFnKv9w" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VHfPkLI_EeWqIZUiFnKv9w" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VHi58LI_EeWqIZUiFnKv9w" name="HashMap"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VH5fQLI_EeWqIZUiFnKv9w" name="Scanner"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VIcR0LI_EeWqIZUiFnKv9w" name="Arrays"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_VIeHAbI_EeWqIZUiFnKv9w" name="Collection"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UhhbwLI_EeWqIZUiFnKv9w" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_VHYh4bI_EeWqIZUiFnKv9w" name="DecimalFormat"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VHblMLI_EeWqIZUiFnKv9w" name="Format"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_VKECcLI_EeWqIZUiFnKv9w" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_VKECcbI_EeWqIZUiFnKv9w" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UjbgQLI_EeWqIZUiFnKv9w" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_UjcHULI_EeWqIZUiFnKv9w" name="junit">
+        <packagedElement xmi:type="uml:Class" xmi:id="_VIgjQbI_EeWqIZUiFnKv9w" name="Assert"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_UjcuYLI_EeWqIZUiFnKv9w" name="runners">
+          <packagedElement xmi:type="uml:Class" xmi:id="_VInQ8bI_EeWqIZUiFnKv9w" name="Parameterized"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_VJCHsLI_EeWqIZUiFnKv9w" name="Suite"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Uj3lILI_EeWqIZUiFnKv9w" name="runner">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_VI0sULI_EeWqIZUiFnKv9w" name="RunWith"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_VIjmkLI_EeWqIZUiFnKv9w" name="Test"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UlNo8LI_EeWqIZUiFnKv9w" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_UlOQALI_EeWqIZUiFnKv9w" name="context">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_VJWQwLI_EeWqIZUiFnKv9w" name="ApplicationContext"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_UlO3ELI_EeWqIZUiFnKv9w" name="support">
+            <packagedElement xmi:type="uml:Class" xmi:id="_VJZ7ILI_EeWqIZUiFnKv9w" name="ClassPathXmlApplicationContext"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_TV0doLI_EeWqIZUiFnKv9w">
+      <eAnnotations xmi:id="_TV254LI_EeWqIZUiFnKv9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_TV8ZcLI_EeWqIZUiFnKv9w" base_Package="_TKsLsLI_EeWqIZUiFnKv9w">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Uo52ILI_EeWqIZUiFnKv9w" base_Element="_Uo4oALI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_Uo7rULI_EeWqIZUiFnKv9w" base_Element="_Uo4oALI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_Uo-HkLI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Uo_8wLI_EeWqIZUiFnKv9w" base_Element="_Uo-uoLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UpBK4LI_EeWqIZUiFnKv9w" base_Element="_Uo-uoLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UpBK4bI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UpDnILI_EeWqIZUiFnKv9w" base_Element="_UpBx8LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UpEOMLI_EeWqIZUiFnKv9w" base_Element="_UpBx8LI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UpEOMbI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Upym8LI_EeWqIZUiFnKv9w" base_Element="_UpxY0LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_Upz1ELI_EeWqIZUiFnKv9w" base_Element="_UpxY0LI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_Upz1EbI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Up1qQLI_EeWqIZUiFnKv9w" base_Element="_Up0cILI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_Up2RULI_EeWqIZUiFnKv9w" base_Element="_Up0cILI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_Up2RUbI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Up4GgLI_EeWqIZUiFnKv9w" base_Element="_Up24YLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_Up4tkLI_EeWqIZUiFnKv9w" base_Element="_Up24YLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_Up4tkbI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Up6iwLI_EeWqIZUiFnKv9w" base_Element="_Up5UoLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_Up6iwbI_EeWqIZUiFnKv9w" base_Element="_Up5UoLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_Up7J0LI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Up8X8bI_EeWqIZUiFnKv9w" base_Element="_Up7w4LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_Up8_ALI_EeWqIZUiFnKv9w" base_Element="_Up7w4LI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_Up8_AbI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Up-NIbI_EeWqIZUiFnKv9w" base_Element="_Up9mELI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_Up-0MLI_EeWqIZUiFnKv9w" base_Element="_Up9mELI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_Up-0MbI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UqACULI_EeWqIZUiFnKv9w" base_Element="_Up_bQLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UqApYLI_EeWqIZUiFnKv9w" base_Element="_Up_bQLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UqApYbI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UqCekLI_EeWqIZUiFnKv9w" base_Element="_UqBQcLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UqDFoLI_EeWqIZUiFnKv9w" base_Element="_UqBQcLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UqDFobI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UqE60LI_EeWqIZUiFnKv9w" base_Element="_UqDssLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UqFh4LI_EeWqIZUiFnKv9w" base_Element="_UqDssLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UqFh4bI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_Uq-SsLI_EeWqIZUiFnKv9w" genericsValue="Object[]" base_Element="_Uq7PYLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Uq_g0LI_EeWqIZUiFnKv9w" base_Element="_Uq7PYLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UrAu8LI_EeWqIZUiFnKv9w" base_Element="_Uq7PYLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UrBWALI_EeWqIZUiFnKv9w" name="Parameterized.Parameters"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UrEZULI_EeWqIZUiFnKv9w" base_Element="_UrDLMLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UrFncLI_EeWqIZUiFnKv9w" base_Element="_UrDLMLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UrFncbI_EeWqIZUiFnKv9w" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UrX7ULI_EeWqIZUiFnKv9w" base_Element="_UrWGILI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Generics xmi:id="_UrjhgLI_EeWqIZUiFnKv9w" genericsValue="Object[]" base_Element="_Urf3ILI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UrkvoLI_EeWqIZUiFnKv9w" base_Element="_Urf3ILI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UrkvobI_EeWqIZUiFnKv9w" name="Parameterized.Parameters"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Urmk0LI_EeWqIZUiFnKv9w" base_Element="_UrlWsLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_Urmk0bI_EeWqIZUiFnKv9w" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_Urny8LI_EeWqIZUiFnKv9w" base_Element="_UrWGILI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_Urny8bI_EeWqIZUiFnKv9w" name="RunWith">
+      <annotationParameters xmi:id="_UroaALI_EeWqIZUiFnKv9w" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_VMY9sLI_EeWqIZUiFnKv9w" value="Parameterized.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UsFF8LI_EeWqIZUiFnKv9w" base_Element="_UsD30LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UsFtALI_EeWqIZUiFnKv9w" base_Element="_UsD30LI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UsFtAbI_EeWqIZUiFnKv9w" name="RunWith">
+      <annotationParameters xmi:id="_UsGUELI_EeWqIZUiFnKv9w" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_VMZkwbI_EeWqIZUiFnKv9w" value="Suite.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_UsGUEbI_EeWqIZUiFnKv9w" name="Suite.SuiteClasses">
+      <annotationParameters xmi:id="_UsGUErI_EeWqIZUiFnKv9w" skipName="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_VMaL0LI_EeWqIZUiFnKv9w" value="ItemTest.class"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_VMaL0bI_EeWqIZUiFnKv9w" value="CartTest.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Usn4gLI_EeWqIZUiFnKv9w" base_Element="_UsmqYLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UsofkLI_EeWqIZUiFnKv9w" base_Element="_UsmqYLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UsofkbI_EeWqIZUiFnKv9w" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UspGoLI_EeWqIZUiFnKv9w" base_Element="_UsofkrI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_UsptsLI_EeWqIZUiFnKv9w" base_Element="_UsofkrI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_UsptsbI_EeWqIZUiFnKv9w" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Usq70LI_EeWqIZUiFnKv9w" base_Element="_UsqUwLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_Usri4LI_EeWqIZUiFnKv9w" base_Element="_UsqUwLI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_Usri4bI_EeWqIZUiFnKv9w" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_VHUQcLI_EeWqIZUiFnKv9w" base_Element="_VHRNILI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VHYh4LI_EeWqIZUiFnKv9w" base_Element="_VHVekLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VHa-ILI_EeWqIZUiFnKv9w" base_Element="_VHYh4bI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VHeogLI_EeWqIZUiFnKv9w" base_Element="_VHblMLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VHiS4LI_EeWqIZUiFnKv9w" base_Element="_VHfPkLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VHl9QLI_EeWqIZUiFnKv9w" base_Element="_VHi58LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VHsq8LI_EeWqIZUiFnKv9w" base_Element="_VHrc0LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_VHugILI_EeWqIZUiFnKv9w" base_Element="_VHrc0LI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_VHugIbI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_VH9JoLI_EeWqIZUiFnKv9w" base_Element="_VH5fQLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VH_l4LI_EeWqIZUiFnKv9w" base_Element="_VH9wsLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VIMaMLI_EeWqIZUiFnKv9w" base_Element="_VILMELI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_VIOPYLI_EeWqIZUiFnKv9w" base_Element="_VILMELI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_VIOPYbI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_VIeHALI_EeWqIZUiFnKv9w" base_Element="_VIcR0LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VIgjQLI_EeWqIZUiFnKv9w" base_Element="_VIeHAbI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VIi_gLI_EeWqIZUiFnKv9w" base_Element="_VIgjQbI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VInQ8LI_EeWqIZUiFnKv9w" base_Element="_VIjmkLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VIq7ULI_EeWqIZUiFnKv9w" base_Element="_VInQ8bI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VI3IkLI_EeWqIZUiFnKv9w" base_Element="_VI0sULI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:StyledElement xmi:id="_VI6L4LI_EeWqIZUiFnKv9w" base_Element="_VI4WsLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VJEj8LI_EeWqIZUiFnKv9w" base_Element="_VJCHsLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VJHnQLI_EeWqIZUiFnKv9w" base_Element="_VJFLALI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VJJccbI_EeWqIZUiFnKv9w" base_Element="_VJIOULI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Annotations xmi:id="_VJKqkLI_EeWqIZUiFnKv9w" base_Element="_VJIOULI_EeWqIZUiFnKv9w">
+    <annotations xmi:id="_VJKqkbI_EeWqIZUiFnKv9w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_VJZUELI_EeWqIZUiFnKv9w" base_Element="_VJWQwLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VJc-cLI_EeWqIZUiFnKv9w" base_Element="_VJZ7ILI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Generics xmi:id="_VKBmMLI_EeWqIZUiFnKv9w" genericsValue="IItem" base_Element="_VJ8tsbI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VKIT4LI_EeWqIZUiFnKv9w" base_Element="_VKECcbI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Array xmi:id="_VKLXMLI_EeWqIZUiFnKv9w" dimensions="2" base_Element="_VKI68LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VKkYwLI_EeWqIZUiFnKv9w" base_Element="_VKjKoLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VKmN8LI_EeWqIZUiFnKv9w" base_Element="_VKk_0LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VKoDILI_EeWqIZUiFnKv9w" base_Element="_VKm1ALI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VK2FkLI_EeWqIZUiFnKv9w" base_Element="_VK03cLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VK36wLI_EeWqIZUiFnKv9w" base_Element="_VK2soLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VK5v8LI_EeWqIZUiFnKv9w" base_Element="_VK4h0LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VK8MMLI_EeWqIZUiFnKv9w" base_Element="_VK6XALI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VLDg8LI_EeWqIZUiFnKv9w" base_Element="_VLCS0LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VLJnkLI_EeWqIZUiFnKv9w" base_Element="_VLIZcLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VLPHILI_EeWqIZUiFnKv9w" base_Element="_VLMq4LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VLQ8ULI_EeWqIZUiFnKv9w" base_Element="_VLPuMLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VLTYkLI_EeWqIZUiFnKv9w" base_Element="_VLRjYLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Array xmi:id="_VLdJkLI_EeWqIZUiFnKv9w" dimensions="2" base_Element="_VLb7cLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VLe-wLI_EeWqIZUiFnKv9w" base_Element="_VLb7cLI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VLmTgLI_EeWqIZUiFnKv9w" base_Element="_VLlFYLI_EeWqIZUiFnKv9w"/>
+  <uml:OpaqueBehavior xmi:id="_VLzH0LI_EeWqIZUiFnKv9w" name="ItemTypeList" specification="_UpgTELI_EeWqIZUiFnKv9w">
+    <ownedParameter xmi:id="_VLzu4LI_EeWqIZUiFnKv9w" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_VLzu4bI_EeWqIZUiFnKv9w" type="_UpaMcLI_EeWqIZUiFnKv9w" direction="return"/>
+    <language>java</language>
+    <body>itemName = name;&#xD;
+     </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_VL_8ILI_EeWqIZUiFnKv9w" name="ItemType" specification="_UqgYoLI_EeWqIZUiFnKv9w">
+    <ownedParameter xmi:id="_VL_8IbI_EeWqIZUiFnKv9w" name="exepmted">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_VL_8IrI_EeWqIZUiFnKv9w" name="imported">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_VL_8I7I_EeWqIZUiFnKv9w" type="_UqXOsLI_EeWqIZUiFnKv9w" direction="return"/>
+    <language>java</language>
+    <body>isTaxExempted = exepmted;&#xD;
+			isImportedItem = imported;&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_VMAjMLI_EeWqIZUiFnKv9w" name="isImportedItem" specification="_Uqi04LI_EeWqIZUiFnKv9w">
+    <ownedParameter xmi:id="_VMAjMbI_EeWqIZUiFnKv9w" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return isImportedItem;&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_VMAjMrI_EeWqIZUiFnKv9w" name="isTaxExempted" specification="_UqkDALI_EeWqIZUiFnKv9w">
+    <ownedParameter xmi:id="_VMAjM7I_EeWqIZUiFnKv9w" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return isTaxExempted;&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_VMKUMLI_EeWqIZUiFnKv9w" name="TaxType" specification="_UsadILI_EeWqIZUiFnKv9w">
+    <ownedParameter xmi:id="_VMK7QLI_EeWqIZUiFnKv9w" name="tax">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_VMK7QbI_EeWqIZUiFnKv9w" type="_UsU9kLI_EeWqIZUiFnKv9w" direction="return"/>
+    <language>java</language>
+    <body>applicableTax = tax;&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_VMnAILI_EeWqIZUiFnKv9w" base_Element="_VMlK8LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VMo1ULI_EeWqIZUiFnKv9w" base_Element="_VMnAIbI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VMrRkLI_EeWqIZUiFnKv9w" base_Element="_VMo1UbI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VMtGwLI_EeWqIZUiFnKv9w" base_Element="_VMrRkbI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VMu78LI_EeWqIZUiFnKv9w" base_Element="_VMtt0LI_EeWqIZUiFnKv9w"/>
+  <UMLLabProfile:Reference xmi:id="_VMxYMLI_EeWqIZUiFnKv9w" base_Element="_VMvjALI_EeWqIZUiFnKv9w"/>
+</xmi:XMI>

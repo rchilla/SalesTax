@@ -1,0 +1,13 @@
+Path,Lines of code,Lines of code generated,Lines of user code, Percentage of generated code
+/SalesTax-Spring/src/main/java/com/tek/sales/cart,140,140,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/cart/interfce,22,22,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/execute,93,93,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/item,83,83,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/item/eenum,35,35,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/item/interfce,37,37,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/jUnit,174,174,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/tax,47,47,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/tax/eenum,27,27,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/tax/interfce,15,15,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/test,24,24,0,"100.00"
+/SalesTax-Spring/src/main/java/com/tek/sales/util,36,36,0,"100.00"

@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_TMgwoLI_EeWqIZUiFnKv9w">
+  <modelElement href="SalesTax-Spring.uml#_UhbVILI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VvayQLI_EeWqIZUiFnKv9w" targetItem="_VvuUQLI_EeWqIZUiFnKv9w" sourceItem="_VvZkILI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Vvhf8bI_EeWqIZUiFnKv9w" targetItem="_VvuUb7I_EeWqIZUiFnKv9w" sourceItem="_Vvhf8LI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VviHAbI_EeWqIZUiFnKv9w" targetItem="_VvuUdLI_EeWqIZUiFnKv9w" sourceItem="_VviHALI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Vvr4ALI_EeWqIZUiFnKv9w" sourceAnchor="151.0,0.0" targetAnchor="125.0,192.0" target="_Vyn3QLI_EeWqIZUiFnKv9w" source="_VvuUQLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMlK8LI_EeWqIZUiFnKv9w"/>
+    <bendpoints xmi:id="_cPFkYLI_EeWqIZUiFnKv9w" sourceY="-14" targetX="884" targetY="21"/>
+    <bendpoints xmi:id="_cPFkYbI_EeWqIZUiFnKv9w" sourceX="-884" sourceY="-14" targetY="21"/>
+    <stereotypes xmi:id="_Vvr4AbI_EeWqIZUiFnKv9w" name="Reference">
+      <modelElement href="SalesTax-Spring.uml#_VMnAILI_EeWqIZUiFnKv9w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Vvr4ArI_EeWqIZUiFnKv9w" text="">
+      <visualProperties xmi:id="_WCSD4LI_EeWqIZUiFnKv9w" position="-200.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Vvr4A7I_EeWqIZUiFnKv9w" aggregationKind="NONE" name="">
+      <modelElement href="SalesTax-Spring.uml#_VMlK8bI_EeWqIZUiFnKv9w"/>
+      <visualProperties xmi:id="_WCQ1wLI_EeWqIZUiFnKv9w" position="-170.5,-10.5"/>
+      <visibility xmi:id="_Vvr4BLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vvr4BbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Vvr4BrI_EeWqIZUiFnKv9w" aggregationKind="NONE" name="itemList" navigable="true">
+      <modelElement href="SalesTax-Spring.uml#_VKjKoLI_EeWqIZUiFnKv9w"/>
+      <visualProperties xmi:id="_WCSq8LI_EeWqIZUiFnKv9w" position="130.0,-27.500000000000114"/>
+      <visibility xmi:id="_Vvr4B7I_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_Vvr4CLI_EeWqIZUiFnKv9w" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VvttMLI_EeWqIZUiFnKv9w" source="_VvuUQLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMnAIbI_EeWqIZUiFnKv9w"/>
+    <stereotypes xmi:id="_VvttMbI_EeWqIZUiFnKv9w" name="Reference">
+      <modelElement href="SalesTax-Spring.uml#_VMo1ULI_EeWqIZUiFnKv9w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VvttMrI_EeWqIZUiFnKv9w" text=""/>
+    <sourceRole xmi:id="_VvttM7I_EeWqIZUiFnKv9w" aggregationKind="NONE" name="">
+      <modelElement href="SalesTax-Spring.uml#_VMnAIrI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_VvttNLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VvttNbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VvttNrI_EeWqIZUiFnKv9w" aggregationKind="NONE" name="FORMATTER" navigable="true">
+      <modelElement href="SalesTax-Spring.uml#_VKoqMLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_VvttN7I_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VvttOLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VwskobI_EeWqIZUiFnKv9w" targetItem="_Vwvn8LI_EeWqIZUiFnKv9w" sourceItem="_VwskoLI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VwtLsLI_EeWqIZUiFnKv9w" sourceAnchor="164.0,0.0" targetAnchor="121.0,135.0" dashed="true" superClass="_Vwvn8LI_EeWqIZUiFnKv9w" subClass="_VvuUQLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VHpAkLI_EeWqIZUiFnKv9w"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VxOJEbI_EeWqIZUiFnKv9w" targetItem="_VxcykLI_EeWqIZUiFnKv9w" sourceItem="_VxOJELI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VxOwILI_EeWqIZUiFnKv9w" sourceAnchor="136.0,0.0" targetAnchor="112.0,192.0" dashed="true" superClass="_Vyn3QLI_EeWqIZUiFnKv9w" subClass="_VxcykLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VIFFcLI_EeWqIZUiFnKv9w"/>
+    <bendpoints xmi:id="_cPGygLI_EeWqIZUiFnKv9w" sourceY="-18" targetX="1105" targetY="281"/>
+    <bendpoints xmi:id="_cPGygbI_EeWqIZUiFnKv9w" sourceX="-1105" sourceY="-18" targetY="281"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VxXTAbI_EeWqIZUiFnKv9w" targetItem="_Vyn3QLI_EeWqIZUiFnKv9w" sourceItem="_VxXTALI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VxcLgLI_EeWqIZUiFnKv9w" sourceAnchor="149.0,0.0" targetAnchor="104.0,71.0" target="_V09ZkLI_EeWqIZUiFnKv9w" source="_VxcykLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMo1UbI_EeWqIZUiFnKv9w"/>
+    <bendpoints xmi:id="_cPGLcLI_EeWqIZUiFnKv9w" sourceY="-96" targetX="-325" targetY="17"/>
+    <bendpoints xmi:id="_cPGLcbI_EeWqIZUiFnKv9w" sourceX="325" sourceY="-96" targetY="17"/>
+    <stereotypes xmi:id="_VxcLgbI_EeWqIZUiFnKv9w" name="Reference">
+      <modelElement href="SalesTax-Spring.uml#_VMrRkLI_EeWqIZUiFnKv9w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VxcLgrI_EeWqIZUiFnKv9w" text="">
+      <visualProperties xmi:id="_WCT5ELI_EeWqIZUiFnKv9w" position="-144.0,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VxcLg7I_EeWqIZUiFnKv9w" aggregationKind="NONE" name="">
+      <modelElement href="SalesTax-Spring.uml#_VMo1UrI_EeWqIZUiFnKv9w"/>
+      <visualProperties xmi:id="_WCTSALI_EeWqIZUiFnKv9w" position="-20.5,-68.0"/>
+      <visibility xmi:id="_VxcLhLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VxcLhbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VxcLhrI_EeWqIZUiFnKv9w" aggregationKind="NONE" name="taxCalculator" navigable="true">
+      <modelElement href="SalesTax-Spring.uml#_VK6XALI_EeWqIZUiFnKv9w"/>
+      <visualProperties xmi:id="_WCUgILI_EeWqIZUiFnKv9w" position="-213.0,20.5"/>
+      <visibility xmi:id="_VxcLh7I_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VxcLiLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VyIvEbI_EeWqIZUiFnKv9w" targetItem="_VyJWILI_EeWqIZUiFnKv9w" sourceItem="_VyIvELI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Vy_qsLI_EeWqIZUiFnKv9w" sourceAnchor="0.0,78.0" targetAnchor="250.0,96.0" target="_Vyn3QLI_EeWqIZUiFnKv9w" source="_VzL38LI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMrRkbI_EeWqIZUiFnKv9w"/>
+    <stereotypes xmi:id="_VzD8IbI_EeWqIZUiFnKv9w" name="Reference">
+      <modelElement href="SalesTax-Spring.uml#_VMtGwLI_EeWqIZUiFnKv9w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VzDVELI_EeWqIZUiFnKv9w" text="">
+      <visualProperties xmi:id="_WCW8YLI_EeWqIZUiFnKv9w" position="10.5,-8.499999999999986"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VzDVEbI_EeWqIZUiFnKv9w" aggregationKind="NONE" name="">
+      <modelElement href="SalesTax-Spring.uml#_VMrRkrI_EeWqIZUiFnKv9w"/>
+      <visualProperties xmi:id="_WCVuQLI_EeWqIZUiFnKv9w" position="-19.5,3.5"/>
+      <visibility xmi:id="_VzINkbI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VzINkLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VzD8ILI_EeWqIZUiFnKv9w" aggregationKind="NONE" name="itemList" navigable="true">
+      <modelElement href="SalesTax-Spring.uml#_VLMq4LI_EeWqIZUiFnKv9w"/>
+      <visualProperties xmi:id="_WCXjcLI_EeWqIZUiFnKv9w" position="5.0,-48.50000000000003"/>
+      <visibility xmi:id="_VzI0obI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VzI0oLI_EeWqIZUiFnKv9w" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VzCuAbI_EeWqIZUiFnKv9w" targetItem="_VzL38LI_EeWqIZUiFnKv9w" sourceItem="_VzCuALI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Vz_JMLI_EeWqIZUiFnKv9w" targetItem="_V0EowLI_EeWqIZUiFnKv9w" sourceItem="_Vz-iILI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Vz_wQLI_EeWqIZUiFnKv9w" source="_V0EowLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMtt0LI_EeWqIZUiFnKv9w"/>
+    <stereotypes xmi:id="_V0BlcbI_EeWqIZUiFnKv9w" name="Reference">
+      <modelElement href="SalesTax-Spring.uml#_VMu78LI_EeWqIZUiFnKv9w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_V0A-YLI_EeWqIZUiFnKv9w" text=""/>
+    <sourceRole xmi:id="_V0A-YbI_EeWqIZUiFnKv9w" aggregationKind="NONE" name="">
+      <modelElement href="SalesTax-Spring.uml#_VMtt0bI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V0CMgbI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V0CMgLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_V0BlcLI_EeWqIZUiFnKv9w" aggregationKind="NONE" name="ITEM_LIST" navigable="true">
+      <modelElement href="SalesTax-Spring.uml#_VLb7cLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V0CzkbI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V0CzkLI_EeWqIZUiFnKv9w" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_V0T5UbI_EeWqIZUiFnKv9w" targetItem="_V0anALI_EeWqIZUiFnKv9w" sourceItem="_V0T5ULI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_V0UgYLI_EeWqIZUiFnKv9w" sourceAnchor="137.0,0.0" targetAnchor="117.0,71.0" dashed="true" superClass="_V09ZkLI_EeWqIZUiFnKv9w" subClass="_V0anALI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VJHnQbI_EeWqIZUiFnKv9w"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_V0Yx0bI_EeWqIZUiFnKv9w" targetItem="_V09ZkLI_EeWqIZUiFnKv9w" sourceItem="_V0Yx0LI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_V0opcbI_EeWqIZUiFnKv9w" targetItem="_V0pQgLI_EeWqIZUiFnKv9w" sourceItem="_V0opcLI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_V1RioLI_EeWqIZUiFnKv9w" targetItem="_V1XpQLI_EeWqIZUiFnKv9w" sourceItem="_V1Q7kLI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_V1TX0LI_EeWqIZUiFnKv9w" targetItem="_V1XpSLI_EeWqIZUiFnKv9w" sourceItem="_V1SwwLI_EeWqIZUiFnKv9w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_V1XCMLI_EeWqIZUiFnKv9w" source="_V1XpQLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMvjALI_EeWqIZUiFnKv9w"/>
+    <stereotypes xmi:id="_V1XCMbI_EeWqIZUiFnKv9w" name="Reference">
+      <modelElement href="SalesTax-Spring.uml#_VMxYMLI_EeWqIZUiFnKv9w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_V1XCMrI_EeWqIZUiFnKv9w" text=""/>
+    <sourceRole xmi:id="_V1XCM7I_EeWqIZUiFnKv9w" aggregationKind="NONE" name="">
+      <modelElement href="SalesTax-Spring.uml#_VMvjAbI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V1XCNLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V1XCNbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_V1XCNrI_EeWqIZUiFnKv9w" aggregationKind="NONE" name="applicationContext" navigable="true">
+      <modelElement href="SalesTax-Spring.uml#_VLlFYLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V1XCN7I_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_V1XCOLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VvZkILI_EeWqIZUiFnKv9w" sourceConnectionVisual="_VvayQLI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_VvuUQLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMRo8LI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Vvhf8LI_EeWqIZUiFnKv9w" sourceConnectionVisual="_Vvhf8bI_EeWqIZUiFnKv9w" text="This method builds the Sales Tax and Total Cost&#xD;&#xA;&#x9; * string to print the receipt finally." item="_VvuUb7I_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMSQALI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VviHALI_EeWqIZUiFnKv9w" sourceConnectionVisual="_VviHAbI_EeWqIZUiFnKv9w" text="This method resets the total and Sales tax costs." item="_VvuUdLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMSQAbI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VwskoLI_EeWqIZUiFnKv9w" sourceConnectionVisual="_VwskobI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_Vwvn8LI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMS3ELI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VxOJELI_EeWqIZUiFnKv9w" sourceConnectionVisual="_VxOJEbI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_VxcykLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMUFMbI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VxXTALI_EeWqIZUiFnKv9w" sourceConnectionVisual="_VxXTAbI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_Vyn3QLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMXIgLI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VyIvELI_EeWqIZUiFnKv9w" sourceConnectionVisual="_VyIvEbI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_VyJWILI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMUsQLI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VzCuALI_EeWqIZUiFnKv9w" sourceConnectionVisual="_VzCuAbI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_VzL38LI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMXvkLI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Vz-iILI_EeWqIZUiFnKv9w" sourceConnectionVisual="_Vz_JMLI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_V0EowLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMZkwLI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_V0T5ULI_EeWqIZUiFnKv9w" sourceConnectionVisual="_V0T5UbI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_V0anALI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMaL0rI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_V0Yx0LI_EeWqIZUiFnKv9w" sourceConnectionVisual="_V0Yx0bI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_V09ZkLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMcBALI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_V0opcLI_EeWqIZUiFnKv9w" sourceConnectionVisual="_V0opcbI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_V0pQgLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMaL07I_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_V1Q7kLI_EeWqIZUiFnKv9w" sourceConnectionVisual="_V1RioLI_EeWqIZUiFnKv9w" text="@author dileepkumarrongali@yahoo.com&#xD;&#xA; *" item="_V1XpQLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMcoELI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_V1SwwLI_EeWqIZUiFnKv9w" sourceConnectionVisual="_V1TX0LI_EeWqIZUiFnKv9w" text="This method is used to get class instance using Dependency Injection mechanism.&#xD;&#xA;&#x9; *  It reads the Spring configuration file and fetches the required class instance by &#xD;&#xA;&#x9; *  passing the class id configured in the xml file. &#xD;&#xA;&#x9; * @param beanName&#xD;&#xA;&#x9; * @return" item="_V1XpSLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_VMcoEbI_EeWqIZUiFnKv9w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VvuUQLI_EeWqIZUiFnKv9w" comments="_VvZkILI_EeWqIZUiFnKv9w" targetConnectionVisual="_VvayQLI_EeWqIZUiFnKv9w" name="Cart" associationsOut="_Vvr4ALI_EeWqIZUiFnKv9w _VvttMLI_EeWqIZUiFnKv9w" generalizations="_VwtLsLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_Uom7MLI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_VvuUQbI_EeWqIZUiFnKv9w" position="868.0,258.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VvuUQrI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_VvuUQ7I_EeWqIZUiFnKv9w" name="itemList">
+      <modelElement href="SalesTax-Spring.uml#_VKjKoLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VvuURLI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VKkYwLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VvuURbI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VvuURrI_EeWqIZUiFnKv9w" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_VvuUR7I_EeWqIZUiFnKv9w" name="IItem">
+        <modelElement href="SalesTax-Spring.uml#_Uqt0ALI_EeWqIZUiFnKv9w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VvuUSLI_EeWqIZUiFnKv9w" name="saleTax">
+      <modelElement href="SalesTax-Spring.uml#_VKk_0LI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VvuUSbI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VKmN8LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VvuUSrI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VvuUS7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VvuUTLI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VvuUTbI_EeWqIZUiFnKv9w" name="totalCost">
+      <modelElement href="SalesTax-Spring.uml#_VKm1ALI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VvuUTrI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VKoDILI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VvuUT7I_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VvuUULI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VvuUUbI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VvuUUrI_EeWqIZUiFnKv9w" defaultValue="new DecimalFormat(&quot;0.00&quot;)" name="FORMATTER" staticAttribute="true">
+      <modelElement href="SalesTax-Spring.uml#_VKoqMLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_VvuUU7I_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VvuUVLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VvuUVbI_EeWqIZUiFnKv9w" name="Format">
+        <modelElement href="SalesTax-Spring.uml#_VHblMLI_EeWqIZUiFnKv9w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VvuUVrI_EeWqIZUiFnKv9w" name="Cart">
+      <modelElement href="SalesTax-Spring.uml#_Uo09oLI_EeWqIZUiFnKv9w"/>
+      <keywords xmi:id="_VvuUV7I_EeWqIZUiFnKv9w" keyword="create"/>
+      <visibility xmi:id="_VvuUWLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VvuUWbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VvuUWrI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Uo2y0LI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VvuUW7I_EeWqIZUiFnKv9w" name="Cart">
+          <modelElement href="SalesTax-Spring.uml#_Uom7MLI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VvuUXLI_EeWqIZUiFnKv9w" name="calculateAndPrintReceiptDetails">
+      <modelElement href="SalesTax-Spring.uml#_Uo4oALI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VvuUXbI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Uo52ILI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VvuUXrI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_Uo7rULI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VvuUX7I_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VvuUYLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VvuUYbI_EeWqIZUiFnKv9w" name="getTotalPrice">
+      <modelElement href="SalesTax-Spring.uml#_Uo-uoLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VvuUYrI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Uo_8wLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VvuUY7I_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_UpBK4LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VvuUZLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VvuUZbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VvuUZrI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Uo_VsLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VvuUZ7I_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VvuUaLI_EeWqIZUiFnKv9w" name="getSalesTaxPrice">
+      <modelElement href="SalesTax-Spring.uml#_UpBx8LI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VvuUabI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_UpDnILI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VvuUarI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_UpEOMLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VvuUa7I_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VvuUbLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VvuUbbI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_UpCZALI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VvuUbrI_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VvuUb7I_EeWqIZUiFnKv9w" comments="_Vvhf8LI_EeWqIZUiFnKv9w" targetConnectionVisual="_Vvhf8bI_EeWqIZUiFnKv9w" name="toString">
+      <modelElement href="SalesTax-Spring.uml#_UpE1QLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_VvuUcLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VvuUcbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VvuUcrI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_UpFcULI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VvuUc7I_EeWqIZUiFnKv9w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VvuUdLI_EeWqIZUiFnKv9w" comments="_VviHALI_EeWqIZUiFnKv9w" targetConnectionVisual="_VviHAbI_EeWqIZUiFnKv9w" name="resetCart">
+      <modelElement href="SalesTax-Spring.uml#_UpGqcLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_VvuUdbI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VvuUdrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VvuUd7I_EeWqIZUiFnKv9w" name="addItemToCart">
+      <modelElement href="SalesTax-Spring.uml#_VHrc0LI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VvuUeLI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VHsq8LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VvuUebI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_VHugILI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VvuUerI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VvuUe7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VvuUfLI_EeWqIZUiFnKv9w" name="item">
+        <modelElement href="SalesTax-Spring.uml#_VHrc0bI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VvuUfbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VvuUfrI_EeWqIZUiFnKv9w" name="IItem">
+          <modelElement href="SalesTax-Spring.uml#_Uqt0ALI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Vwvn8LI_EeWqIZUiFnKv9w" comments="_VwskoLI_EeWqIZUiFnKv9w" targetConnectionVisual="_VwskobI_EeWqIZUiFnKv9w" name="ICart" subclassedBy="_VwtLsLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_UpRpkLI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_Vwvn8bI_EeWqIZUiFnKv9w" position="911.0,84.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Vwvn8rI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_Vwvn87I_EeWqIZUiFnKv9w" name="totalPrice">
+      <modelElement href="SalesTax-Spring.uml#_UpUF0LI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vwvn9LI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vwvn9bI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vwvn9rI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vwvn97I_EeWqIZUiFnKv9w" name="salesTaxPrice">
+      <modelElement href="SalesTax-Spring.uml#_UpUs4LI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vwvn-LI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vwvn-bI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vwvn-rI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Vwvn-7I_EeWqIZUiFnKv9w" name="calculateAndPrintReceiptDetails">
+      <modelElement href="SalesTax-Spring.uml#_UpTewLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vwvn_LI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vwvn_bI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Vwvn_rI_EeWqIZUiFnKv9w" name="addItemToCart">
+      <modelElement href="SalesTax-Spring.uml#_VH3DALI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vwvn_7I_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VwvoALI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VwvoAbI_EeWqIZUiFnKv9w" name="item">
+        <modelElement href="SalesTax-Spring.uml#_VH3qELI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VwvoArI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VwvoA7I_EeWqIZUiFnKv9w" name="IItem">
+          <modelElement href="SalesTax-Spring.uml#_Uqt0ALI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Vw8cQLI_EeWqIZUiFnKv9w" name="Main">
+    <modelElement href="SalesTax-Spring.uml#_UpXwMLI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_Vw8cQbI_EeWqIZUiFnKv9w" position="872.0,1464.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Vw8cQrI_EeWqIZUiFnKv9w" label="+"/>
+    <operations xmi:id="_Vw8cQ7I_EeWqIZUiFnKv9w" name="main" staticOperation="true">
+      <modelElement href="SalesTax-Spring.uml#_Upj9cLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vw8cRLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vw8cRbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Vw8cRrI_EeWqIZUiFnKv9w" name="args">
+        <modelElement href="SalesTax-Spring.uml#_Upj9cbI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_Vw8cR7I_EeWqIZUiFnKv9w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Vw8cSLI_EeWqIZUiFnKv9w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_VxB70LI_EeWqIZUiFnKv9w" name="ItemTypeList">
+    <modelElement href="SalesTax-Spring.uml#_UpaMcLI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_VxB70bI_EeWqIZUiFnKv9w" position="16.0,1212.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VxB70rI_EeWqIZUiFnKv9w" label="~"/>
+    <attributes xmi:id="_VxB707I_EeWqIZUiFnKv9w" name="itemName">
+      <modelElement href="SalesTax-Spring.uml#_VKx0ILI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_VxB71LI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VxB71bI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VxB71rI_EeWqIZUiFnKv9w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VxB717I_EeWqIZUiFnKv9w" name="ItemTypeList">
+      <modelElement href="SalesTax-Spring.uml#_UpgTELI_EeWqIZUiFnKv9w"/>
+      <keywords xmi:id="_VxB72LI_EeWqIZUiFnKv9w" keyword="create"/>
+      <visibility xmi:id="_VxB72bI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VxB72rI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VxB727I_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Upg6IrI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VxB73LI_EeWqIZUiFnKv9w" name="ItemTypeList">
+          <modelElement href="SalesTax-Spring.uml#_UpaMcLI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VxB73bI_EeWqIZUiFnKv9w" name="name">
+        <modelElement href="SalesTax-Spring.uml#_UpgTEbI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VxB73rI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VxB737I_EeWqIZUiFnKv9w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_VxB74LI_EeWqIZUiFnKv9w" name="BOOK">
+      <modelElement href="SalesTax-Spring.uml#_UpbakLI_EeWqIZUiFnKv9w"/>
+    </literals>
+    <literals xmi:id="_VxB74bI_EeWqIZUiFnKv9w" name="MUSIC_CD">
+      <modelElement href="SalesTax-Spring.uml#_UpcBobI_EeWqIZUiFnKv9w"/>
+    </literals>
+    <literals xmi:id="_VxB74rI_EeWqIZUiFnKv9w" name="CHOCOLATE">
+      <modelElement href="SalesTax-Spring.uml#_UpcosbI_EeWqIZUiFnKv9w"/>
+    </literals>
+    <literals xmi:id="_VxB747I_EeWqIZUiFnKv9w" name="PERFUME">
+      <modelElement href="SalesTax-Spring.uml#_UpdPwLI_EeWqIZUiFnKv9w"/>
+    </literals>
+    <literals xmi:id="_VxB75LI_EeWqIZUiFnKv9w" name="PILLS">
+      <modelElement href="SalesTax-Spring.uml#_UpdPwrI_EeWqIZUiFnKv9w"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VxcykLI_EeWqIZUiFnKv9w" comments="_VxOJELI_EeWqIZUiFnKv9w" targetConnectionVisual="_VxOJEbI_EeWqIZUiFnKv9w" name="Item" associationsOut="_VxcLgLI_EeWqIZUiFnKv9w" generalizations="_VxOwILI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_UpqrILI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_VxcykbI_EeWqIZUiFnKv9w" position="1091.0,521.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VxcykrI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_Vxcyk7I_EeWqIZUiFnKv9w" name="name">
+      <modelElement href="SalesTax-Spring.uml#_VK03cLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VxcylLI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VK2FkLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VxcylbI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VxcylrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vxcyl7I_EeWqIZUiFnKv9w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VxcymLI_EeWqIZUiFnKv9w" name="itemPrice">
+      <modelElement href="SalesTax-Spring.uml#_VK2soLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VxcymbI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VK36wLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VxcymrI_EeWqIZUiFnKv9w" label="#"/>
+      <cardinality xmi:id="_Vxcym7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VxcynLI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VxcynbI_EeWqIZUiFnKv9w" name="itemType">
+      <modelElement href="SalesTax-Spring.uml#_VK4h0LI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VxcynrI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VK5v8LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_Vxcyn7I_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VxcyoLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VxcyobI_EeWqIZUiFnKv9w" name="ItemType">
+        <modelElement href="SalesTax-Spring.uml#_UqXOsLI_EeWqIZUiFnKv9w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VxcyorI_EeWqIZUiFnKv9w" name="taxCalculator">
+      <modelElement href="SalesTax-Spring.uml#_VK6XALI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_Vxcyo7I_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VK8MMLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VxcypLI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VxcypbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VxcyprI_EeWqIZUiFnKv9w" name="ITaxCalculator">
+        <modelElement href="SalesTax-Spring.uml#_UshK0LI_EeWqIZUiFnKv9w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Vxcyp7I_EeWqIZUiFnKv9w" name="Item">
+      <modelElement href="SalesTax-Spring.uml#_UpuVgLI_EeWqIZUiFnKv9w"/>
+      <keywords xmi:id="_VxcyqLI_EeWqIZUiFnKv9w" keyword="create"/>
+      <visibility xmi:id="_VxcyqbI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VxcyqrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vxcyq7I_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Upu8krI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VxcyrLI_EeWqIZUiFnKv9w" name="Item">
+          <modelElement href="SalesTax-Spring.uml#_UpqrILI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VxcyrbI_EeWqIZUiFnKv9w" name="setItemDescription">
+      <modelElement href="SalesTax-Spring.uml#_UpxY0LI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VxcyrrI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Upym8LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Vxcyr7I_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_Upz1ELI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VxcysLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VxcysbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VxcysrI_EeWqIZUiFnKv9w" name="description">
+        <modelElement href="SalesTax-Spring.uml#_Upx_4LI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_Vxcys7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VxcytLI_EeWqIZUiFnKv9w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VxcytbI_EeWqIZUiFnKv9w" name="getItemDescription">
+      <modelElement href="SalesTax-Spring.uml#_Up0cILI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VxcytrI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Up1qQLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Vxcyt7I_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_Up2RULI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VxcyuLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VxcyubI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VxcyurI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Up1DMLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_Vxcyu7I_EeWqIZUiFnKv9w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VxcyvLI_EeWqIZUiFnKv9w" name="setItemPrice">
+      <modelElement href="SalesTax-Spring.uml#_Up24YLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VxcyvbI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Up4GgLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VxcyvrI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_Up4tkLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_Vxcyv7I_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VxcywLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VxcywbI_EeWqIZUiFnKv9w" name="price">
+        <modelElement href="SalesTax-Spring.uml#_Up3fcLI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VxcywrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_Vxcyw7I_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VxcyxLI_EeWqIZUiFnKv9w" name="getItemPrice">
+      <modelElement href="SalesTax-Spring.uml#_Up5UoLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VxcyxbI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Up6iwLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VxcyxrI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_Up6iwbI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_Vxcyx7I_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VxcyyLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VxcyybI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Up57sLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VxcyyrI_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vxcyy7I_EeWqIZUiFnKv9w" name="isTaxExempted">
+      <modelElement href="SalesTax-Spring.uml#_Up7w4LI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VxcyzLI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Up8X8bI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VxcyzbI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_Up8_ALI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VxcyzrI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vxcyz7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vxcy0LI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Up8X8LI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_Vxcy0bI_EeWqIZUiFnKv9w" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vxcy0rI_EeWqIZUiFnKv9w" name="isImportedItem">
+      <modelElement href="SalesTax-Spring.uml#_Up9mELI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_Vxcy07I_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Up-NIbI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Vxcy1LI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_Up-0MLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_Vxcy1bI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vxcy1rI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vxcy17I_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Up-NILI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_Vxcy2LI_EeWqIZUiFnKv9w" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vxcy2bI_EeWqIZUiFnKv9w" name="getItemSaleTax">
+      <modelElement href="SalesTax-Spring.uml#_Up_bQLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_Vxcy2rI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_UqACULI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Vxcy27I_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_UqApYLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_Vxcy3LI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vxcy3bI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vxcy3rI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Up_bQbI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_Vxcy37I_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vxcy4LI_EeWqIZUiFnKv9w" name="getItemTotalPrice">
+      <modelElement href="SalesTax-Spring.uml#_UqBQcLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_Vxcy4bI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_UqCekLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Vxcy4rI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_UqDFoLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_Vxcy47I_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vxcy5LI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vxcy5bI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_UqB3gLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_Vxcy5rI_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vxcy57I_EeWqIZUiFnKv9w" name="toString">
+      <modelElement href="SalesTax-Spring.uml#_UqDssLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_Vxcy6LI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_UqE60LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Vxcy6bI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_UqFh4LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_Vxcy6rI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vxcy67I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vxcy7LI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_UqETwLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_Vxcy7bI_EeWqIZUiFnKv9w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vxcy7rI_EeWqIZUiFnKv9w" name="Item">
+      <modelElement href="SalesTax-Spring.uml#_VIIIwLI_EeWqIZUiFnKv9w"/>
+      <keywords xmi:id="_Vxcy77I_EeWqIZUiFnKv9w" keyword="create"/>
+      <visibility xmi:id="_Vxcy8LI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vxcy8bI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vxcy8rI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VIJW4bI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VxdZoLI_EeWqIZUiFnKv9w" name="Item">
+          <modelElement href="SalesTax-Spring.uml#_UpqrILI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VxdZobI_EeWqIZUiFnKv9w" name="taxCalculator">
+        <modelElement href="SalesTax-Spring.uml#_VIIv0LI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VxdZorI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VxdZo7I_EeWqIZUiFnKv9w" name="ITaxCalculator">
+          <modelElement href="SalesTax-Spring.uml#_UshK0LI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VxdZpLI_EeWqIZUiFnKv9w" name="setItemType">
+      <modelElement href="SalesTax-Spring.uml#_VILMELI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VxdZpbI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VIMaMLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VxdZprI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_VIOPYLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VxdZp7I_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VxdZqLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VxdZqbI_EeWqIZUiFnKv9w" name="itemTyp">
+        <modelElement href="SalesTax-Spring.uml#_VILMEbI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VxdZqrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VxdZq7I_EeWqIZUiFnKv9w" name="ItemType">
+          <modelElement href="SalesTax-Spring.uml#_UqXOsLI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_VyPcwLI_EeWqIZUiFnKv9w" name="ItemType">
+    <modelElement href="SalesTax-Spring.uml#_UqXOsLI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_VyPcwbI_EeWqIZUiFnKv9w" position="14.0,919.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VyPcwrI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_VyPcw7I_EeWqIZUiFnKv9w" name="isTaxExempted">
+      <modelElement href="SalesTax-Spring.uml#_VLCS0LI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VyPcxLI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VLDg8LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VyPcxbI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VyPcxrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VyPcx7I_EeWqIZUiFnKv9w" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VyPcyLI_EeWqIZUiFnKv9w" name="isImportedItem">
+      <modelElement href="SalesTax-Spring.uml#_VLIZcLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VyPcybI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VLJnkLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VyPcyrI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VyPcy7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VyPczLI_EeWqIZUiFnKv9w" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VyPczbI_EeWqIZUiFnKv9w" name="ItemType">
+      <modelElement href="SalesTax-Spring.uml#_UqgYoLI_EeWqIZUiFnKv9w"/>
+      <keywords xmi:id="_VyPczrI_EeWqIZUiFnKv9w" keyword="create"/>
+      <visibility xmi:id="_VyPcz7I_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VyPc0LI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VyPc0bI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_UqhmwrI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VyPc0rI_EeWqIZUiFnKv9w" name="ItemType">
+          <modelElement href="SalesTax-Spring.uml#_UqXOsLI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VyPc07I_EeWqIZUiFnKv9w" name="exepmted">
+        <modelElement href="SalesTax-Spring.uml#_UqgYobI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VyPc1LI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VyPc1bI_EeWqIZUiFnKv9w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VyPc1rI_EeWqIZUiFnKv9w" name="imported">
+        <modelElement href="SalesTax-Spring.uml#_Uqg_sLI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VyPc17I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VyPc2LI_EeWqIZUiFnKv9w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VyPc2bI_EeWqIZUiFnKv9w" name="isImportedItem">
+      <modelElement href="SalesTax-Spring.uml#_Uqi04LI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_VyPc2rI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VyPc27I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VyPc3LI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Uqjb8LI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VyPc3bI_EeWqIZUiFnKv9w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VyPc3rI_EeWqIZUiFnKv9w" name="isTaxExempted">
+      <modelElement href="SalesTax-Spring.uml#_UqkDALI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_VyPc37I_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VyPc4LI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VyPc4bI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_UqkqELI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VyPc4rI_EeWqIZUiFnKv9w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_VyPc47I_EeWqIZUiFnKv9w" name="BOOK_MEDICAL_FOOD">
+      <modelElement href="SalesTax-Spring.uml#_UqYc0LI_EeWqIZUiFnKv9w"/>
+    </literals>
+    <literals xmi:id="_VyPc5LI_EeWqIZUiFnKv9w" name="OTHERS_ITEMS">
+      <modelElement href="SalesTax-Spring.uml#_UqZD4bI_EeWqIZUiFnKv9w"/>
+    </literals>
+    <literals xmi:id="_VyPc5bI_EeWqIZUiFnKv9w" name="IMPORTED_BOOK_MEDICAL_FOOD">
+      <modelElement href="SalesTax-Spring.uml#_UqZq8bI_EeWqIZUiFnKv9w"/>
+    </literals>
+    <literals xmi:id="_VyQD0LI_EeWqIZUiFnKv9w" name="IMPORTED_OTHERS_ITEMS">
+      <modelElement href="SalesTax-Spring.uml#_UqaSAbI_EeWqIZUiFnKv9w"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Vyn3QLI_EeWqIZUiFnKv9w" comments="_VxXTALI_EeWqIZUiFnKv9w" targetConnectionVisual="_VxXTAbI_EeWqIZUiFnKv9w" name="IItem" associationsIn="_Vvr4ALI_EeWqIZUiFnKv9w _Vy_qsLI_EeWqIZUiFnKv9w" subclassedBy="_VxOwILI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_Uqt0ALI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_Vyn3QbI_EeWqIZUiFnKv9w" position="11.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Vyn3QrI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_Vyn3Q7I_EeWqIZUiFnKv9w" name="itemDescription">
+      <modelElement href="SalesTax-Spring.uml#_UqvCILI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vyn3RLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vyn3RbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vyn3RrI_EeWqIZUiFnKv9w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vyn3R7I_EeWqIZUiFnKv9w" name="itemPrice">
+      <modelElement href="SalesTax-Spring.uml#_UqvpMLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vyn3SLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vyn3SbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vyn3SrI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vyn3S7I_EeWqIZUiFnKv9w" name="itemSaleTax">
+      <modelElement href="SalesTax-Spring.uml#_UqyFcbI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vyn3TLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vyn3TbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vyn3TrI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vyn3T7I_EeWqIZUiFnKv9w" name="itemTotalPrice">
+      <modelElement href="SalesTax-Spring.uml#_UqysgLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vyn3ULI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vyn3UbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vyn3UrI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Vyn3U7I_EeWqIZUiFnKv9w" name="isTaxExempted">
+      <modelElement href="SalesTax-Spring.uml#_Uqw3ULI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vyn3VLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vyn3VbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vyn3VrI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_Uqw3UbI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_Vyn3V7I_EeWqIZUiFnKv9w" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vyn3WLI_EeWqIZUiFnKv9w" name="isImportedItem">
+      <modelElement href="SalesTax-Spring.uml#_UqxeYLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vyn3WbI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vyn3WrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vyn3W7I_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_UqyFcLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_Vyn3XLI_EeWqIZUiFnKv9w" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vyn3XbI_EeWqIZUiFnKv9w" name="setItemType">
+      <modelElement href="SalesTax-Spring.uml#_VIacoLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vyn3XrI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vyn3X7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Vyn3YLI_EeWqIZUiFnKv9w" name="itemType">
+        <modelElement href="SalesTax-Spring.uml#_VIbDsLI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_Vyn3YbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_Vyn3YrI_EeWqIZUiFnKv9w" name="ItemType">
+          <modelElement href="SalesTax-Spring.uml#_UqXOsLI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VzL38LI_EeWqIZUiFnKv9w" comments="_VzCuALI_EeWqIZUiFnKv9w" targetConnectionVisual="_VzCuAbI_EeWqIZUiFnKv9w" name="CartTest" associationsOut="_Vy_qsLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_Uq2W4LI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_VzL38bI_EeWqIZUiFnKv9w" position="474.0,48.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VzL38rI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_VzL387I_EeWqIZUiFnKv9w" name="itemList">
+      <modelElement href="SalesTax-Spring.uml#_VLMq4LI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VzL39LI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VLPHILI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VzL39bI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VzL39rI_EeWqIZUiFnKv9w" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_VzL397I_EeWqIZUiFnKv9w" name="IItem">
+        <modelElement href="SalesTax-Spring.uml#_Uqt0ALI_EeWqIZUiFnKv9w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VzL3-LI_EeWqIZUiFnKv9w" name="expectedTotalSalexTax">
+      <modelElement href="SalesTax-Spring.uml#_VLPuMLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VzL3-bI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VLQ8ULI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VzL3-rI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VzL3-7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VzL3_LI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VzL3_bI_EeWqIZUiFnKv9w" name="exptecdTotalCost">
+      <modelElement href="SalesTax-Spring.uml#_VLRjYLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VzL3_rI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VLTYkLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VzL3_7I_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VzL4ALI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_VzL4AbI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VzL4ArI_EeWqIZUiFnKv9w" name="data" staticOperation="true">
+      <modelElement href="SalesTax-Spring.uml#_Uq7PYLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VzL4A7I_EeWqIZUiFnKv9w" name="Generics">
+        <modelElement href="SalesTax-Spring.uml#_Uq-SsLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VzL4BLI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Uq_g0LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VzL4BbI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_UrAu8LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VzL4BrI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VzL4B7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VzL4CLI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VKC0ULI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VzL4CbI_EeWqIZUiFnKv9w" name="Collection">
+          <modelElement href="SalesTax-Spring.uml#_VIeHAbI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VzL4CrI_EeWqIZUiFnKv9w" name="testCartCostAndTax">
+      <modelElement href="SalesTax-Spring.uml#_UrDLMLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_VzL4C7I_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_UrEZULI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VzL4DLI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_UrFncLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VzL4DbI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VzL4DrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VzL4D7I_EeWqIZUiFnKv9w" name="CartTest">
+      <modelElement href="SalesTax-Spring.uml#_VJ8tsLI_EeWqIZUiFnKv9w"/>
+      <keywords xmi:id="_VzL4ELI_EeWqIZUiFnKv9w" keyword="create"/>
+      <visibility xmi:id="_VzL4EbI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VzL4ErI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VzL4E7I_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VJ970rI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VzL4FLI_EeWqIZUiFnKv9w" name="CartTest">
+          <modelElement href="SalesTax-Spring.uml#_Uq2W4LI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VzL4FbI_EeWqIZUiFnKv9w" name="list">
+        <modelElement href="SalesTax-Spring.uml#_VJ8tsbI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VzL4FrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VzL4F7I_EeWqIZUiFnKv9w" name="List">
+          <modelElement href="SalesTax-Spring.uml#_VHRNILI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VzL4GLI_EeWqIZUiFnKv9w" name="totalCost">
+        <modelElement href="SalesTax-Spring.uml#_VJ8tsrI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VzL4GbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VzL4GrI_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VzL4G7I_EeWqIZUiFnKv9w" name="totalSalexTax">
+        <modelElement href="SalesTax-Spring.uml#_VJ9UwLI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VzL4HLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VzL4HbI_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VzL4HrI_EeWqIZUiFnKv9w" name="createItemList" staticOperation="true">
+      <modelElement href="SalesTax-Spring.uml#_VKIT4bI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_VzL4H7I_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_VzL4ILI_EeWqIZUiFnKv9w" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_VzL4IbI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VKI68bI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VzL4IrI_EeWqIZUiFnKv9w" name="IItem">
+          <modelElement href="SalesTax-Spring.uml#_Uqt0ALI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VzL4I7I_EeWqIZUiFnKv9w" name="data">
+        <modelElement href="SalesTax-Spring.uml#_VKI68LI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VzL4JLI_EeWqIZUiFnKv9w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_VzL4JbI_EeWqIZUiFnKv9w" name="Object">
+          <modelElement href="SalesTax-Spring.uml#_VKECcbI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Vzoj4LI_EeWqIZUiFnKv9w" name="ItemTest">
+    <modelElement href="SalesTax-Spring.uml#_UrWGILI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_Vzoj4bI_EeWqIZUiFnKv9w" position="475.0,914.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Vzoj4rI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+      <modelElement href="SalesTax-Spring.uml#_UrX7ULI_EeWqIZUiFnKv9w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Vzoj47I_EeWqIZUiFnKv9w" name="Annotations">
+      <modelElement href="SalesTax-Spring.uml#_Urny8LI_EeWqIZUiFnKv9w"/>
+    </stereotypes>
+    <visibility xmi:id="_Vzoj5LI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_Vzoj5bI_EeWqIZUiFnKv9w" name="description">
+      <modelElement href="SalesTax-Spring.uml#_VLVNwLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vzoj5rI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_Vzoj57I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vzoj6LI_EeWqIZUiFnKv9w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vzoj6bI_EeWqIZUiFnKv9w" name="price">
+      <modelElement href="SalesTax-Spring.uml#_VLWb4LI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vzoj6rI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_Vzoj67I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vzoj7LI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vzoj7bI_EeWqIZUiFnKv9w" name="itemType">
+      <modelElement href="SalesTax-Spring.uml#_VLXqALI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vzoj7rI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_Vzoj77I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vzoj8LI_EeWqIZUiFnKv9w" name="ItemType">
+        <modelElement href="SalesTax-Spring.uml#_UqXOsLI_EeWqIZUiFnKv9w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vzoj8bI_EeWqIZUiFnKv9w" name="expectedPriceWithTax">
+      <modelElement href="SalesTax-Spring.uml#_VLY4ILI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_Vzoj8rI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_Vzoj87I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_Vzoj9LI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Vzoj9bI_EeWqIZUiFnKv9w" name="data" staticOperation="true">
+      <modelElement href="SalesTax-Spring.uml#_Urf3ILI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_Vzoj9rI_EeWqIZUiFnKv9w" name="Generics">
+        <modelElement href="SalesTax-Spring.uml#_UrjhgLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Vzoj97I_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_UrkvoLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_Vzoj-LI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vzoj-bI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vzoj-rI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VKQPsLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_Vzoj-7I_EeWqIZUiFnKv9w" name="Collection">
+          <modelElement href="SalesTax-Spring.uml#_VIeHAbI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vzoj_LI_EeWqIZUiFnKv9w" name="testItemPriceWithTax">
+      <modelElement href="SalesTax-Spring.uml#_UrlWsLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_Vzoj_bI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_Urmk0LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_Vzoj_rI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_Vzoj_7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VzokALI_EeWqIZUiFnKv9w" name="ItemTest">
+      <modelElement href="SalesTax-Spring.uml#_VI4WsLI_EeWqIZUiFnKv9w"/>
+      <keywords xmi:id="_VzokAbI_EeWqIZUiFnKv9w" keyword="create"/>
+      <stereotypes xmi:id="_VzokArI_EeWqIZUiFnKv9w" name="StyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VI6L4LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_VzokA7I_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_VzokBLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VzokBbI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VI5k0rI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_VzokBrI_EeWqIZUiFnKv9w" name="ItemTest">
+          <modelElement href="SalesTax-Spring.uml#_UrWGILI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VzokB7I_EeWqIZUiFnKv9w" name="desc">
+        <modelElement href="SalesTax-Spring.uml#_VI4WsbI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VzokCLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VzokCbI_EeWqIZUiFnKv9w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VzokCrI_EeWqIZUiFnKv9w" name="aPrice">
+        <modelElement href="SalesTax-Spring.uml#_VI4WsrI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VzokC7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VzokDLI_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VzokDbI_EeWqIZUiFnKv9w" name="type">
+        <modelElement href="SalesTax-Spring.uml#_VI49wLI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VzokDrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VzokD7I_EeWqIZUiFnKv9w" name="ItemType">
+          <modelElement href="SalesTax-Spring.uml#_UqXOsLI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VzokELI_EeWqIZUiFnKv9w" name="costWithTax">
+        <modelElement href="SalesTax-Spring.uml#_VI49wbI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_VzokEbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_VzokErI_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V0EowLI_EeWqIZUiFnKv9w" comments="_Vz-iILI_EeWqIZUiFnKv9w" targetConnectionVisual="_Vz_JMLI_EeWqIZUiFnKv9w" name="ItemTestHelper" associationsOut="_Vz_wQLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_Ur6G0LI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_V0EowbI_EeWqIZUiFnKv9w" position="13.0,1464.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V0EowrI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_V0Eow7I_EeWqIZUiFnKv9w" defaultValue="new Object[][] {&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;book&quot;, 12.49f , ItemType.BOOK_MEDICAL_FOOD , 12.49f },&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;Music CD&quot;, 14.99f , ItemType.OTHERS_ITEMS , 16.49f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;chocolate bar&quot; , 0.85f , ItemType.BOOK_MEDICAL_FOOD , 0.85f} ,&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;imported box of chocolates&quot;, 10.00f, ItemType.IMPORTED_BOOK_MEDICAL_FOOD, 10.50f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;imported bottle of perfume&quot;, 47.50f, ItemType.IMPORTED_OTHERS_ITEMS, 54.65f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;imported bottle of perfume&quot;, 27.99f,ItemType.IMPORTED_OTHERS_ITEMS , 32.19f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;bottle of perfume&quot;, 18.99f, ItemType.OTHERS_ITEMS , 20.89f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;packet of headache pills&quot;, 9.75f , ItemType.BOOK_MEDICAL_FOOD, 9.75f},&#xD;&#xA;&#x9;&#x9;&#x9;   { &quot;box of imported chocolates&quot;,11.25f,ItemType.IMPORTED_BOOK_MEDICAL_FOOD, 11.85f}&#xD;&#xA;&#x9;&#x9;&#x9;   }" name="ITEM_LIST" staticAttribute="true">
+      <modelElement href="SalesTax-Spring.uml#_VLb7cLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_V0EoxLI_EeWqIZUiFnKv9w" name="Array">
+        <modelElement href="SalesTax-Spring.uml#_VLdJkLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_V0EoxbI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VLe-wLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_V0EoxrI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V0Eox7I_EeWqIZUiFnKv9w" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_V0EoyLI_EeWqIZUiFnKv9w" name="Object">
+        <modelElement href="SalesTax-Spring.uml#_VKECcbI_EeWqIZUiFnKv9w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_V0EoybI_EeWqIZUiFnKv9w" name="createItem" staticOperation="true">
+      <modelElement href="SalesTax-Spring.uml#_VI_EYLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V0EoyrI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V0Eoy7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V0EozLI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VI_rcbI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_V0EozbI_EeWqIZUiFnKv9w" name="IItem">
+          <modelElement href="SalesTax-Spring.uml#_Uqt0ALI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V0EozrI_EeWqIZUiFnKv9w" name="description">
+        <modelElement href="SalesTax-Spring.uml#_VI_EYbI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_V0Eoz7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_V0Eo0LI_EeWqIZUiFnKv9w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V0Eo0bI_EeWqIZUiFnKv9w" name="price">
+        <modelElement href="SalesTax-Spring.uml#_VI_EYrI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_V0Eo0rI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_V0Eo07I_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_V0Eo1LI_EeWqIZUiFnKv9w" name="itemType">
+        <modelElement href="SalesTax-Spring.uml#_VI_rcLI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_V0Eo1bI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_V0Eo1rI_EeWqIZUiFnKv9w" name="ItemType">
+          <modelElement href="SalesTax-Spring.uml#_UqXOsLI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V0PA0LI_EeWqIZUiFnKv9w" name="ShoppingTestSuit">
+    <modelElement href="SalesTax-Spring.uml#_UsD30LI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_V0PA0bI_EeWqIZUiFnKv9w" position="1121.0,1470.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_V0PA0rI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+      <modelElement href="SalesTax-Spring.uml#_UsFF8LI_EeWqIZUiFnKv9w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_V0PA07I_EeWqIZUiFnKv9w" name="Annotations">
+      <modelElement href="SalesTax-Spring.uml#_UsFtALI_EeWqIZUiFnKv9w"/>
+    </stereotypes>
+    <visibility xmi:id="_V0PA1LI_EeWqIZUiFnKv9w" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V0anALI_EeWqIZUiFnKv9w" comments="_V0T5ULI_EeWqIZUiFnKv9w" targetConnectionVisual="_V0T5UbI_EeWqIZUiFnKv9w" name="TaxCalculator" generalizations="_V0UgYLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_UsIJQLI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_V0anAbI_EeWqIZUiFnKv9w" position="1441.0,444.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V0anArI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_V0anA7I_EeWqIZUiFnKv9w" defaultValue="0.05f" name="ROUNDOFF" staticAttribute="true">
+      <modelElement href="SalesTax-Spring.uml#_VLgM4LI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V0anBLI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_V0anBbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_V0anBrI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_V0anB7I_EeWqIZUiFnKv9w" name="roundOffTax">
+      <modelElement href="SalesTax-Spring.uml#_UsLzoLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V0anCLI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_V0anCbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V0anCrI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_UsMasLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_V0anC7I_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V0anDLI_EeWqIZUiFnKv9w" name="tax">
+        <modelElement href="SalesTax-Spring.uml#_UsLzobI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_V0anDbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_V0anDrI_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_V0anD7I_EeWqIZUiFnKv9w" name="calculateTax">
+      <modelElement href="SalesTax-Spring.uml#_VJIOULI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_V0anELI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VJJccbI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_V0anEbI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_VJKqkLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_V0anErI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V0anE7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V0anFLI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VJJccLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_V0anFbI_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V0anFrI_EeWqIZUiFnKv9w" name="item">
+        <modelElement href="SalesTax-Spring.uml#_VJI1YLI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_V0anF7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_V0anGLI_EeWqIZUiFnKv9w" name="IItem">
+          <modelElement href="SalesTax-Spring.uml#_Uqt0ALI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_V0anGbI_EeWqIZUiFnKv9w" name="getItemTaxType">
+      <modelElement href="SalesTax-Spring.uml#_VJLRoLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V0anGrI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_V0anG7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V0anHLI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VJL4sLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_V0bOELI_EeWqIZUiFnKv9w" name="TaxType">
+          <modelElement href="SalesTax-Spring.uml#_UsU9kLI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V0bOEbI_EeWqIZUiFnKv9w" name="item">
+        <modelElement href="SalesTax-Spring.uml#_VJLRobI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_V0bOErI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_V0bOE7I_EeWqIZUiFnKv9w" name="IItem">
+          <modelElement href="SalesTax-Spring.uml#_Uqt0ALI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V0pQgLI_EeWqIZUiFnKv9w" comments="_V0opcLI_EeWqIZUiFnKv9w" targetConnectionVisual="_V0opcbI_EeWqIZUiFnKv9w" name="ApplicableTaxRates">
+    <modelElement href="SalesTax-Spring.uml#_UsTvcLI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_V0pQgbI_EeWqIZUiFnKv9w" position="17.0,1607.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V0p3kLI_EeWqIZUiFnKv9w" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_V0uJALI_EeWqIZUiFnKv9w" name="TaxType">
+    <modelElement href="SalesTax-Spring.uml#_UsU9kLI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_V0uJAbI_EeWqIZUiFnKv9w" position="363.0,1208.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V0uJArI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_V0uJA7I_EeWqIZUiFnKv9w" name="applicableTax">
+      <modelElement href="SalesTax-Spring.uml#_VLj3QLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V0uJBLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V0uJBbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_V0uJBrI_EeWqIZUiFnKv9w" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_V0uJB7I_EeWqIZUiFnKv9w" name="TaxType">
+      <modelElement href="SalesTax-Spring.uml#_UsadILI_EeWqIZUiFnKv9w"/>
+      <keywords xmi:id="_V0uJCLI_EeWqIZUiFnKv9w" keyword="create"/>
+      <visibility xmi:id="_V0uJCbI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_V0uJCrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V0uJC7I_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_UsbrQLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_V0uJDLI_EeWqIZUiFnKv9w" name="TaxType">
+          <modelElement href="SalesTax-Spring.uml#_UsU9kLI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V0uJDbI_EeWqIZUiFnKv9w" name="tax">
+        <modelElement href="SalesTax-Spring.uml#_UsbEMLI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_V0uJDrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_V0uJD7I_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_V0uJELI_EeWqIZUiFnKv9w" name="NO_TAX">
+      <modelElement href="SalesTax-Spring.uml#_UsVkoLI_EeWqIZUiFnKv9w"/>
+    </literals>
+    <literals xmi:id="_V0uJEbI_EeWqIZUiFnKv9w" name="BASIC_SALES_TAX">
+      <modelElement href="SalesTax-Spring.uml#_UsWLsbI_EeWqIZUiFnKv9w"/>
+    </literals>
+    <literals xmi:id="_V0uJErI_EeWqIZUiFnKv9w" name="IMPORTED_TAX">
+      <modelElement href="SalesTax-Spring.uml#_UsWywLI_EeWqIZUiFnKv9w"/>
+    </literals>
+    <literals xmi:id="_V0uJE7I_EeWqIZUiFnKv9w" name="BOTH_TAXES">
+      <modelElement href="SalesTax-Spring.uml#_UsWywrI_EeWqIZUiFnKv9w"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_V09ZkLI_EeWqIZUiFnKv9w" comments="_V0Yx0LI_EeWqIZUiFnKv9w" targetConnectionVisual="_V0Yx0bI_EeWqIZUiFnKv9w" name="ITaxCalculator" associationsIn="_VxcLgLI_EeWqIZUiFnKv9w" subclassedBy="_V0UgYLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_UshK0LI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_V09ZkbI_EeWqIZUiFnKv9w" position="1461.0,337.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V09ZkrI_EeWqIZUiFnKv9w" label="+"/>
+    <operations xmi:id="_V09Zk7I_EeWqIZUiFnKv9w" name="calculateTax">
+      <modelElement href="SalesTax-Spring.uml#_VJSmYLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V09ZlLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V09ZlbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V09ZlrI_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VJTNcLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_V09Zl7I_EeWqIZUiFnKv9w" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V09ZmLI_EeWqIZUiFnKv9w" name="item">
+        <modelElement href="SalesTax-Spring.uml#_VJSmYbI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_V09ZmbI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_V09ZmrI_EeWqIZUiFnKv9w" name="IItem">
+          <modelElement href="SalesTax-Spring.uml#_Uqt0ALI_EeWqIZUiFnKv9w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V1HKkLI_EeWqIZUiFnKv9w" name="CartTest">
+    <modelElement href="SalesTax-Spring.uml#_UslcQLI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_V1HKkbI_EeWqIZUiFnKv9w" position="660.0,1212.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V1HKkrI_EeWqIZUiFnKv9w" label="+"/>
+    <operations xmi:id="_V1HKk7I_EeWqIZUiFnKv9w" name="testCartTest">
+      <modelElement href="SalesTax-Spring.uml#_UsmqYLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_V1HKlLI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Usn4gLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_V1HKlbI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_UsofkLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_V1HKlrI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V1HKl7I_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_V1HKmLI_EeWqIZUiFnKv9w" name="testData">
+      <modelElement href="SalesTax-Spring.uml#_UsofkrI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_V1HKmbI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_UspGoLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_V1HKmrI_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_UsptsLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_V1HKm7I_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V1HKnLI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_V1HKnbI_EeWqIZUiFnKv9w" name="testTestCartCostAndTax">
+      <modelElement href="SalesTax-Spring.uml#_UsqUwLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_V1HKnrI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_Usq70LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_V1HKn7I_EeWqIZUiFnKv9w" name="Annotations">
+        <modelElement href="SalesTax-Spring.uml#_Usri4LI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_V1HKoLI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V1HKobI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_V1XpQLI_EeWqIZUiFnKv9w" comments="_V1Q7kLI_EeWqIZUiFnKv9w" targetConnectionVisual="_V1RioLI_EeWqIZUiFnKv9w" name="ApplicationContextUtil" associationsOut="_V1XCMLI_EeWqIZUiFnKv9w">
+    <modelElement href="SalesTax-Spring.uml#_UstYELI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_V1XpQbI_EeWqIZUiFnKv9w" position="519.0,1464.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_V1XpQrI_EeWqIZUiFnKv9w" label="+"/>
+    <attributes xmi:id="_V1XpQ7I_EeWqIZUiFnKv9w" name="applicationContext" staticAttribute="true">
+      <modelElement href="SalesTax-Spring.uml#_VLlFYLI_EeWqIZUiFnKv9w"/>
+      <stereotypes xmi:id="_V1XpRLI_EeWqIZUiFnKv9w" name="LegacyStyledElement">
+        <modelElement href="SalesTax-Spring.uml#_VLmTgLI_EeWqIZUiFnKv9w"/>
+      </stereotypes>
+      <visibility xmi:id="_V1XpRbI_EeWqIZUiFnKv9w" label="-"/>
+      <cardinality xmi:id="_V1XpRrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <type xmi:id="_V1XpR7I_EeWqIZUiFnKv9w" name="ApplicationContext">
+        <modelElement href="SalesTax-Spring.uml#_VJWQwLI_EeWqIZUiFnKv9w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_V1XpSLI_EeWqIZUiFnKv9w" comments="_V1SwwLI_EeWqIZUiFnKv9w" targetConnectionVisual="_V1TX0LI_EeWqIZUiFnKv9w" name="getBean" staticOperation="true">
+      <modelElement href="SalesTax-Spring.uml#_UswbYLI_EeWqIZUiFnKv9w"/>
+      <visibility xmi:id="_V1XpSbI_EeWqIZUiFnKv9w" label="+"/>
+      <cardinality xmi:id="_V1XpSrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_V1XpS7I_EeWqIZUiFnKv9w">
+        <modelElement href="SalesTax-Spring.uml#_VKXkcLI_EeWqIZUiFnKv9w"/>
+        <type xmi:id="_V1XpTLI_EeWqIZUiFnKv9w" name="Object">
+          <modelElement href="SalesTax-Spring.uml#_VKECcbI_EeWqIZUiFnKv9w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_V1XpTbI_EeWqIZUiFnKv9w" name="beanName">
+        <modelElement href="SalesTax-Spring.uml#_UswbYbI_EeWqIZUiFnKv9w"/>
+        <cardinality xmi:id="_V1XpTrI_EeWqIZUiFnKv9w" label="1" max="1" min="1"/>
+        <type xmi:id="_V1XpT7I_EeWqIZUiFnKv9w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VyJWILI_EeWqIZUiFnKv9w" comments="_VyIvELI_EeWqIZUiFnKv9w" targetConnectionVisual="_VyIvEbI_EeWqIZUiFnKv9w" name="ItemProperties">
+    <modelElement href="SalesTax-Spring.uml#_UqVZgLI_EeWqIZUiFnKv9w"/>
+    <visualProperties xmi:id="_VyJWIbI_EeWqIZUiFnKv9w" position="210.0,1607.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VyJWIrI_EeWqIZUiFnKv9w" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
